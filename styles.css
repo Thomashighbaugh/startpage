@@ -3,7 +3,7 @@
 body {
   /*background-image: url("electricFeel.jpg");*/
   background-color: #677e8c;
-  margin: 0px;
+  margin: 0;
 }
 
 .container {
@@ -19,10 +19,9 @@ body {
   font-weight: 900;
 }
 #clock {
-  font-family: sans-serif;
   font-size: 4rem;
   font-weight: 600;
-  font-family: "Roboto Mono";
+  font-family: Expansiva, "Roboto Mono", monospace;
   color: #fff;
   margin-bottom: 0.25em;
 }
@@ -52,8 +51,8 @@ footer {
   padding: 0.75em 1em;
   box-sizing: border-box;
   background-color: #272727;
-  border: solid 0px #272727;
-  font-family: "Roboto Mono";
+  border: solid 0 #272727;
+  font-family: Expansiva, "Roboto Mono", monospace;
   font-size: 4rem;
   color: #f2f2f2;
   outline: none;
@@ -67,7 +66,7 @@ footer {
   background-color: #272727;
   padding: 1em;
   border-radius: 3px;
-  font-family: "Roboto Mono";
+  font-family: Expansiva, "Roboto Mono", monospace;
   color: #fff;
   text-align: center;
 }
@@ -96,7 +95,7 @@ footer {
   }
   .bookmark-container > .bookmark-set {
     width: auto;
-    margin: 1em 0em;
+    margin: 1em 0;
   }
 }
 
@@ -104,8 +103,8 @@ footer {
   padding: 1em;
   background-color: #272727;
   border-radius: 25px;
-  font-family: "Roboto Mono";
-  font-size: 0.85rem;
+  font-family: Expansiva, "Roboto Mono", monospace;
+  font-size: 0.75rem;
   width: 35%;
   height: 12em;
   margin: 0em 0.5em;
@@ -119,13 +118,13 @@ footer {
   font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
-  margin: 0em 0em 0.35em 0em;
+  margin: 0 0 0.35em 0;
 }
 .bookmark {
   text-decoration: none;
   color: #8c8c8b;
   display: block;
-  margin: 0.5em 0em;
+  margin: 0.5em 0;
 }
 .bookmark:hover {
   color: #fff;

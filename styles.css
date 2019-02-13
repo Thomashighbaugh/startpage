@@ -2,7 +2,7 @@
 
 body {
   /*background-image: url("electricFeel.jpg");*/
-  background-color: #677e8c;
+  background-color: #965dff;
   margin: 0;
 }
 
@@ -33,6 +33,7 @@ footer {
   align-content: center;
   justify-content: center;
   padding-left: 30%;
+  margin-top: 8.5em;
 }
 #search {
   width: 100%;
@@ -62,7 +63,7 @@ footer {
 }
 
 .weather-container {
-  width: 30%;
+  width: 18%;
   background-color: #272727;
   padding: 1em;
   border-radius: 3px;
@@ -73,7 +74,9 @@ footer {
 .inline {
   display: inline-block;
 }
-
+.img {
+  max-width: 100%;
+}
 .bookmark-container {
   display: flex;
   flex-direction: row;

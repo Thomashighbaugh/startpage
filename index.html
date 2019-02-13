@@ -11,7 +11,8 @@
   </head>
   <body>
     <div id="search">
-      <label for="search-field">X...</label
+      <label for="search-field"
+        >Press Enter After Completing Your Search Terms!</label
       ><input
         id="search-field"
         type="text"
@@ -22,7 +23,8 @@
     <div class="container">
       <div id="clock"></div>
       <div class="weather-container">
-        <h2 id="trouble">ELECTRIC TANTRA LANDING</h2>
+        <img src="electricFeel.png" class="img" />
+        <h2 id="trouble">To Search Google Hit the Spacebar!</h2>
       </div>
 
       <div class="bookmark-container">
@@ -345,25 +347,7 @@
 
       window.onload = () => {
         let xhr = new XMLHttpRequest();
-        // Request to open weather map
-        xhr.open(
-          "GET",
-          "https://openweathermap.org/data/2.5/forecast?id=94542&APPID=99d99320bb86b38aedfaa54408e75934sd"
-        );
-        // xhr.onload = () => {
-        //   if (xhr.readyState === 4) {
-        //     if (xhr.status === 200) {
-        //       let json = JSON.parse(xhr.responseText);
-        //       console.log(json);
-        //       document.getElementById("temp").innerHTML =
-        //         json.main.temp.toFixed(0) + " F";
-        //       document.getElementById("weather-description").innerHTML =
-        //         json.weather[0].description;
-        //     } else {
-        //       console.log("error msg: " + xhr.status);
-        //     }
-        //   }
-        // };
+
         xhr.send();
         // Set up the clock
         document.getElementById("clock").innerHTML = getTime();

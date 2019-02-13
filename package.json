@@ -1,0 +1,14 @@
+{
+  "name": "homepage-electric-tantra",
+  "version": "1.0.0",
+  "description": "a homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TLH",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^1.16.4"
+  }
+}

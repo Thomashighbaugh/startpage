@@ -220,34 +220,28 @@
       </div>
       <div class="bookmark-container">
         <div class="bookmark-set">
-          <div class="bookmark-title">Daily</div>
+          <div class="bookmark-title">Code & Color Resources</div>
           <div class="bookmark-inner-container">
-            <a class="bookmark" href="https://inbox.google.com/" target="_blank"
-              >Inbox</a
+            <a class="bookmark" href="https://codemyui.com/" target="_blank"
+              >Code My UI</a
             >
-            <a class="bookmark" href="https://github.com/" target="_blank"
-              >Github</a
+            <a class="bookmark" href="https://culrs.com/#/" target="_blank"
+              >Curls</a
             >
-            <a class="bookmark" href="https://drive.google.com/" target="_blank"
-              >Drive</a
+            <a class="bookmark" href="https://gist.github.com" target="_blank"
+              >Gists</a
             >
           </div>
         </div>
         <div class="bookmark-set">
-          <div class="bookmark-title">Development</div>
+          <div class="bookmark-title">Linux</div>
           <div class="bookmark-inner-container">
-            <a class="bookmark" href="https://github.com" target="_blank"
-              >GitHub</a
+            <a class="bookmark" href="https://distrowatch.com" target="_blank"
+              >Distrowatch</a
             >
-            <a class="bookmark" href="https://gitlab.com" target="_blank"
-              >GitLab</a
+            <a class="bookmark" href="https://distrowatch.com/dwres.php?resource=bittorrent" target="_blank"
+              >Distrowatch Torrent Archive</a
             >
-            <a
-              class="bookmark"
-              href="https://crunchyroll.com"
-              target="_blank"
-            ></a>
-            <a class="bookmark" href="https://" target="_blank">Amazon Prime</a>
           </div>
         </div>
         <div class="bookmark-set">
@@ -261,22 +255,6 @@
             >
             <a class="bookmark" href="https://pinterest.com" target="_blank"
               >Pinterest</a
-            >
-            <a
-              class="bookmark"
-              href="https://reddit.com/r/battlestations"
-              target="_blank"
-              >/r/battlestations</a
-            >
-            <a
-              class="bookmark"
-              href="https://reddit.com/r/unixporn"
-              target="_blank"
-              >/r/unixporn</a
-            >
-
-            <a class="bookmark" href="https://reddit.com/r/news" target="_blank"
-              >/r/news</a
             >
           </div>
         </div>
@@ -312,63 +290,12 @@
             <a class="bookmark" href="https://web.dev/learn" target="_blank"
               >Learn Web.Dev</a
             >
-            <a class="bookmark" href="https://enlight.nyc/login" target="_blank"
-              >Enlight</a
-            >
           </div>
         </div>
       </div>
     </div>
     <footer>Brought to you by TLH of Electric Tantra Design!</footer>
-    <script>
-      // Search on enter key event
-      function search(e) {
-        if (e.keyCode === 13) {
-          const val = document.getElementById("search-field").value;
-          window.open("https://google.com/search?q=" + val);
-        }
-      }
-      // Get current time and format
-      function getTime() {
-        let date = new Date(),
-          min = date.getMinutes(),
-          sec = date.getSeconds(),
-          hour = date.getHours();
-
-        return (
-          "" +
-          (hour < 10 ? "0" + hour : hour) +
-          ":" +
-          (min < 10 ? "0" + min : min) +
-          ":" +
-          (sec < 10 ? "0" + sec : sec)
-        );
-      }
-
-      window.onload = () => {
-        let xhr = new XMLHttpRequest();
-
-        xhr.send();
-        // Set up the clock
-        document.getElementById("clock").innerHTML = getTime();
-        // Set clock interval to tick clock
-        setInterval(() => {
-          document.getElementById("clock").innerHTML = getTime();
-        }, 100);
-      };
-
-      document.addEventListener("keydown", event => {
-        if (event.keyCode === 32) {
-          // Spacebar code to open search
-          document.getElementById("search").style.display = "flex";
-          document.getElementById("search-field").focus();
-        } else if (event.keyCode === 27) {
-          // Esc to close search
-          document.getElementById("search-field").value = "";
-          document.getElementById("search-field").blur();
-          document.getElementById("search").style.display = "none";
-        }
-      });
+    <script type="text/javascript" src="script.js">
     </script>
   </body>
 </html>

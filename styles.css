@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
 body {
-  /*background-image: url("electricFeel.jpg");*/
   background-color: #965dff;
   margin: 0;
 }
@@ -92,6 +91,9 @@ footer {
   #clock {
     margin-top: 1em;
   }
+  #trouble{
+    display: none;
+  }
   .container > .bookmark-container {
     flex-direction: column;
     width: 60%;
@@ -101,6 +103,7 @@ footer {
     margin: 1em 0;
   }
 }
+
 
 .bookmark-set {
   padding: 1em;

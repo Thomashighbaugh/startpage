@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Home</title>
+    <title>Electric Tantra Splash Page</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="electricFeel.png" rel="shortcut icon" type="image/x-icon" />
   </head>
   <body>
     <div id="search">
       <label for="search-field"
-        >Press Enter After Completing Your Search Terms!</label
+        >Press Enter To Search</label
       ><input
-        id="search-field"
-        type="text"
-        name="search-field"
-        onkeypress="return search(event)"
-      />
+            id="search-field"
+            name="search-field"
+            type="text"
+            onkeypress="return search(event)"
+    />
     </div>
     <div class="container">
       <div id="clock"></div>
       <div class="weather-container">
-        <img src="electricFeel.png" class="img" />
+        <img src="electricFeel.png" class="img"  alt=""/>
         <h2 id="trouble">To Search Google Hit the Spacebar!</h2>
+          <div class="row">
+              <div class="inline" id="weather-description"></div>
+              <div class="inline">-</div>
+              <div id="temp" class="inline"></div>
+          </div>
       </div>
 
       <div class="bookmark-container">
@@ -86,13 +91,13 @@
         <div class="bookmark-set">
           <div class="bookmark-title">Hosts</div>
           <div class="bookmark-inner-container">
-            <a class="bookmark" href="https://twitter.com" target="_blank"
+            <a class="bookmark" href="https://digitalocean.com" target="_blank"
               >Digital Ocean
             </a>
-            <a class="bookmark" href="https://facebook.com" target="_blank"
+            <a class="bookmark" href="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0" target="_blank"
               >AWS & S3</a
             >
-            <a class="bookmark" href="https://facebook.com" target="_blank"
+            <a class="bookmark" href="https://netlify.com" target="_blank"
               >Netlify</a
             >
           </div>
@@ -134,20 +139,15 @@
           </div>
         </div>
         <div class="bookmark-set">
-          <div class="bookmark-title">Development</div>
+          <div class="bookmark-title">Discover</div>
           <div class="bookmark-inner-container">
-            <a class="bookmark" href="https://github.com" target="_blank"
-              >GitHub</a
+            <a class="bookmark" href="http://gen.lib.rus.ec" target="_blank"
+              >Books</a
             >
-            <a class="bookmark" href="https://gitlab.com" target="_blank"
-              >GitLab</a
+            <a class="bookmark" href="https://www.producthunt.com/" target="_blank"
+              >Product Hunt</a
             >
-            <a
-              class="bookmark"
-              href="https://crunchyroll.com"
-              target="_blank"
-            ></a>
-            <a class="bookmark" href="https://" target="_blank">Amazon Prime</a>
+
           </div>
         </div>
         <div class="bookmark-set">
@@ -209,12 +209,6 @@
             <a class="bookmark" href="https://gitlab.com" target="_blank"
               >GitLab</a
             >
-            <a
-              class="bookmark"
-              href="https://crunchyroll.com"
-              target="_blank"
-            ></a>
-            <a class="bookmark" href="https://" target="_blank">Amazon Prime</a>
           </div>
         </div>
       </div>

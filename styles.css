@@ -7,22 +7,25 @@ body {
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+    margin-top: 4rem;
 }
 #trouble {
   font-family: Expansiva, monospace;
   font-weight: 900;
 }
 #clock {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   font-family: Expansiva, "Roboto Mono", monospace;
   color: #fff;
   margin-bottom: 0.25em;
+    margin-top: 1em;
+
 }
 footer {
   max-height: 45px;
@@ -90,6 +93,7 @@ footer {
   }
   #clock {
     margin-top: 1em;
+      color:#f2f2f2;
   }
   #trouble{
     display: none;
@@ -111,18 +115,17 @@ footer {
   border-radius: 25px;
   font-family: Expansiva, "Roboto Mono", monospace;
   font-size: 0.75rem;
-  width: 35%;
-  height: 12em;
+  width: 40%;
+  height: 15em;
   margin: 0em 0.5em;
 }
 .bookmark-inner-container {
-  overflow-y: scroll;
   height: 80%;
   vertical-align: top;
 }
 .bookmark-title {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 900;
   color: #fff;
   margin: 0 0 0.35em 0;
 }

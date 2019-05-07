@@ -63,6 +63,9 @@ footer {
   margin-bottom: 1em;
   text-align: center;
 }
+label{
+  color: #f2f2f2;
+}
 
 .weather-container {
   width: 18%;

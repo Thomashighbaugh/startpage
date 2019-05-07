@@ -13,7 +13,9 @@ This repository contains the source code of my personal homepage, available [her
 This site features a few nifty little additions on top of the links provided in the typical **E L E C T R I C   T A N T R A** style such as:
     
     - A clock that fetches the local time and displays it on the top of the screen 
+   
     - A search feature that is activated with a push of the spacebar 
+   
     - My custom logo (I designed myself)
 ## Languages 
 
@@ -29,7 +31,11 @@ This site features a few nifty little additions on top of the links provided in 
 ## Electric Tantra Style 
  
   The style that this site uses is part of a personal taste-turned-paradigm called the Electric Tantra that uses a Neon Noir based style to flavor my personal web development efforts. The aesthetics compliment the function of the site and create a seamless blending of function, ease of use and street smart design based on the latest emerging trends in high art and musical aesthetics. Characteristics of the style (and the functionality) are listed below  
+   
     - Dark UI - makes looking at the screen in low light conditions easier 
+   
     - Mobile Optimized - makes the site available on a variety of devices and for multiple use cases (with reduced functionality due to lack of a physical keyboard) 
+   
     - Neon Colors - reduce the darkness of the site's Dark UI and help to prevent the UI from appearing stale 
+    
     - Monospaced Fonts - prevent text from being rendered in hard to read spacing 

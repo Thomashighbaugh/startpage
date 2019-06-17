@@ -1,0 +1,1 @@
+[![Coverage Status](https://img.shields.io/coveralls/{%= github.repopath %}.svg)](https://coveralls.io/r/{%= github.repopath %})

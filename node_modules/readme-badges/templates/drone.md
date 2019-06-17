@@ -1,0 +1,1 @@
+[![](https://drone.io/{%= repo %}/status.png)](https://drone.io/{%= repo %}/latest)

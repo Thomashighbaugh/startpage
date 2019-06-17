@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/{%= repo %}/badge.png?branch=master)](https://coveralls.io/r/{%= repo %}?branch=master)

@@ -1,0 +1,1 @@
+{% if (typeof(username) !== "undefined") { %} [![endorse](https://api.coderwall.com/{%= username %}/endorsecount.png)](https://coderwall.com/{%= username %}) {% } else { %} {% console.log('"username" is not on the context. Coderwall badge cannot render.') %} {% } %}

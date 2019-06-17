@@ -1,0 +1,1 @@
+[![Code Climate](https://codeclimate.com/github/{%= repo %}.png)](https://codeclimate.com/github/{%= repo %})

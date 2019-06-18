@@ -9,7 +9,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "font-awesome": "^4.7.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "scss-lint": "0.0.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0"

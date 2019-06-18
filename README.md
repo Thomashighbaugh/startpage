@@ -69,7 +69,8 @@ awesome icon or the letters in the letter variable
 - accent - generally off, but can be used to give specific bookmarks a color
     - override - set to true if you want to change the color
         - color - set the components to the RGB style you want the icon color to be or if _override_ is false keep these at null  
-          
+
+      
 ## Author
 
 **Thomas Leon Highbaugh**

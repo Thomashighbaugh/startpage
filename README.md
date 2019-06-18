@@ -1,8 +1,17 @@
 # Electric Tantra Splash Page
 
-> The second incarnation of my homepage. Forked from nightTabs and modified 
+> The second incarnation of my homepage. 
 
-## Install
+## Introduction
+This is the second version of the Electric Tantra Splash Page, my personal homepage and web landing. This project was forked from nightTab by zombieFox and then modified to suite my needs. In addition to utilizing ZombieFox's brillaint design, I have added a few modifications to the base feature set, including the removal of the background feature and addition of several client facing features. In addition, I have thoroughly commented the source code and made  developed the 
+
+## Installation
+
+
+
+### Use As Homepage/New Tab Page (Without Modifications)
+Copy the [hosted url](https://electric-tantra-splash-page.netlify.com), add it as your browser's homepage and new tab page. If you are using Firefox, try the [NewTab extension](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/?src=search) for using it as a new tab page or the [New Tab Homepage](https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/) extension for a seamless experience.   
+
 To modify the page for your needs:
 
 ```sh
@@ -12,6 +21,8 @@ npm install
 # Perform your modifications with your favorite text editor
 # Use prettier to reformat the code you modify
 ```
+
+To host the site 
 
 ## Development 
 

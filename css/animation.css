@@ -7,3 +7,7 @@
     opacity: 1;
   }
 }
+.animation{
+  animation: slide 10s infinite linear; /*Adjust the duration*/
+}
+

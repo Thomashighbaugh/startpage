@@ -1,1367 +1,2379 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="#262831" name="theme-color">
-    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="#262831" name="theme-color" />
+    <meta
+      content="width=device-width, initial-scale=1, user-scalable=no"
+      name="viewport"
+    />
     <title>Electric Tantra Splash Page</title>
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="css/base.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/edge.css" rel="stylesheet">
-    <link href="css/animation.css" rel="stylesheet">
-    <link href="css/fonts.css" rel="stylesheet">
-    <link href="css/icons.css" rel="stylesheet">
-    <link href="css/state.css" rel="stylesheet">
-    <link href="css/utilities.css" rel="stylesheet">
-    <link href="css/typography.css" rel="stylesheet">
-    <link href="css/spacing.css" rel="stylesheet">
-    <link href="css/button.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
-    <link href="css/shade.css" rel="stylesheet">
-    <link href="css/modal.css" rel="stylesheet">
-    <link href="css/tip.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/date.css" rel="stylesheet">
-    <link href="css/clock.css" rel="stylesheet">
-    <link href="css/greeting.css" rel="stylesheet">
-    <link href="css/transitional.css" rel="stylesheet">
-    <link href="css/search.css" rel="stylesheet">
-    <link href="css/background.css" rel="stylesheet">
-    <link href="css/link.css" rel="stylesheet">
-    <link href="css/auto-suggest.css" rel="stylesheet">
-    <link href="css/fontawesome.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
-</head>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/edge.css" rel="stylesheet" />
+    <link href="css/animation.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/icons.css" rel="stylesheet" />
+    <link href="css/state.css" rel="stylesheet" />
+    <link href="css/utilities.css" rel="stylesheet" />
+    <link href="css/typography.css" rel="stylesheet" />
+    <link href="css/spacing.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <link href="css/shade.css" rel="stylesheet" />
+    <link href="css/modal.css" rel="stylesheet" />
+    <link href="css/tip.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/date.css" rel="stylesheet" />
+    <link href="css/clock.css" rel="stylesheet" />
+    <link href="css/greeting.css" rel="stylesheet" />
+    <link href="css/transitional.css" rel="stylesheet" />
+    <link href="css/search.css" rel="stylesheet" />
+    <link href="css/background.css" rel="stylesheet" />
+    <link href="css/link.css" rel="stylesheet" />
+    <link href="css/auto-suggest.css" rel="stylesheet" />
+    <link href="css/fontawesome.css" rel="stylesheet" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <div class="background">
+      <div class="background-image"></div>
+      <div class="background-accent"></div>
+    </div>
 
-<div class="background">
-    <div class="background-image"></div>
-    <div class="background-accent"></div>
-</div>
-
-<main class="main">
-
-    <header class="header">
+    <main class="main">
+      <header class="header">
         <div class="header-shade"></div>
         <div class="header-area">
-            <div class="header-item-grid">
-                <div class="header-item header-greeting">
-                    <p class="greeting"></p>
-                </div>
-                <div class="header-item header-transitional">
-                    <p class="transitional"></p>
-                </div>
-                <div class="header-item header-clock">
-                    <p class="clock"></p>
-                </div>
-                <div class="header-item header-date">
-                    <p class="date"></p>
-                </div>
-                <div class="header-item header-search">
-                    <form action="" class="search" method="get">
-                        <input autocapitalize="off" autocomplete="off" autocorrect="off"
-                               class="header-search-input search-input mb-0" name="q" placeholder="Find or Search"
-                               spellcheck="false" tabindex="1"
-                               type="text">
-                        <input class="is-hidden" type="submit" value="Search">
-                    </form>
-                    <button class="header-search-clear search-clear button button-link mb-0" disabled tabindex="1">
-                        <span class="icon-close"></span>
-                    </button>
-                </div>
-                <div class="header-item header-button header-edit-add">
-                    <div class="form-group nested-button mb-0">
-                        <div class="input-wrap input-button input-hide py-0">
-                            <input class="control-link-edit" id="control-link-edit" tabindex="1" type="checkbox">
-                            <label class=" mb-0" for="control-link-edit">Edit</label>
-                        </div>
-                        <button class="control-link-add button" tabindex="1">
-                            <span class="button-text">Add</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="header-item header-button header-accent">
-                    <div class="input-wrap input-button input-color-dot input-color-dot-accent py-0">
-                        <input class="control-theme-accent-current" id="control-theme-accent-current" tabindex="1"
-                               type="color">
-                        <label for="control-theme-accent-current">Accent</label>
-                    </div>
-                </div>
-                <div class="header-item header-button header-menu">
-                    <button class="control-menu button mb-0" tabindex="1">
-                        <span class="button-text"><span class="icon-settings"></span></span>
-                    </button>
-                    <hr class="horizontal-rule"/>
-                </div>
+          <div class="header-item-grid">
+            <div class="header-item header-greeting">
+              <p class="greeting"></p>
             </div>
+            <div class="header-item header-transitional">
+              <p class="transitional"></p>
+            </div>
+            <div class="header-item header-clock">
+              <p class="clock"></p>
+            </div>
+            <div class="header-item header-date">
+              <p class="date"></p>
+            </div>
+            <div class="header-item header-search">
+              <form action="" class="search" method="get">
+                <input
+                  autocapitalize="off"
+                  autocomplete="off"
+                  autocorrect="off"
+                  class="header-search-input search-input mb-0"
+                  name="q"
+                  placeholder="Find or Search"
+                  spellcheck="false"
+                  tabindex="1"
+                  type="text"
+                />
+                <input class="is-hidden" type="submit" value="Search" />
+              </form>
+              <button
+                class="header-search-clear search-clear button button-link mb-0"
+                disabled
+                tabindex="1"
+              >
+                <span class="icon-close"></span>
+              </button>
+            </div>
+            <div class="header-item header-button header-edit-add">
+              <div class="form-group nested-button mb-0">
+                <div class="input-wrap input-button input-hide py-0">
+                  <input
+                    class="control-link-edit"
+                    id="control-link-edit"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label class=" mb-0" for="control-link-edit">Edit</label>
+                </div>
+                <button class="control-link-add button" tabindex="1">
+                  <span class="button-text">Add</span>
+                </button>
+              </div>
+            </div>
+            <div class="header-item header-button header-accent">
+              <div
+                class="input-wrap input-button input-color-dot input-color-dot-accent py-0"
+              >
+                <input
+                  class="control-theme-accent-current"
+                  id="control-theme-accent-current"
+                  tabindex="1"
+                  type="color"
+                />
+                <label for="control-theme-accent-current">Accent</label>
+              </div>
+            </div>
+            <div class="header-item header-button header-menu">
+              <button class="control-menu button mb-0" tabindex="1">
+                <span class="button-text"
+                  ><span class="icon-settings"></span
+                ></span>
+              </button>
+              <hr class="horizontal-rule" />
+            </div>
+          </div>
         </div>
-    </header>
+      </header>
 
-    <section class="link">
+      <section class="link">
         <div class="link-area"></div>
-    </section>
+      </section>
+    </main>
 
-</main>
-
-
-<section class="menu" tabindex="1">
-    <div class="menu-area">
-
+    <section class="menu" tabindex="1">
+      <div class="menu-area">
         <div class="menu-nav">
-            <div class="menu-nav-area menu-nav-area-grow mb-0 list-unstyled">
-                <button class="menu-nav-button button button-large active" data-target=".menu-content-area-layout"
-                        tabindex="1">Layout
-                </button>
-                <button class="menu-nav-button button button-large" data-target=".menu-content-area-header"
-                        tabindex="1">Header
-                </button>
-                <button class="menu-nav-button button button-large" data-target=".menu-content-area-bookmarks"
-                        tabindex="1">Bookmarks
-                </button>
-                <button class="menu-nav-button button button-large" data-target=".menu-content-area-theme" tabindex="1">
-                    Theme
-                </button>
-                <button class="menu-nav-button button button-large" data-target=".menu-content-area-background"
-                        tabindex="1">Background
-                </button>
-            </div>
-            <div class="menu-nav-area">
-                <button class="menu-close button button-block button-large mb-0" tabindex="1"><span
-                        class="icon-close"></span></button>
-            </div>
+          <div class="menu-nav-area menu-nav-area-grow mb-0 list-unstyled">
+            <button
+              class="menu-nav-button button button-large active"
+              data-target=".menu-content-area-layout"
+              tabindex="1"
+            >
+              Layout
+            </button>
+            <button
+              class="menu-nav-button button button-large"
+              data-target=".menu-content-area-header"
+              tabindex="1"
+            >
+              Header
+            </button>
+            <button
+              class="menu-nav-button button button-large"
+              data-target=".menu-content-area-bookmarks"
+              tabindex="1"
+            >
+              Bookmarks
+            </button>
+            <button
+              class="menu-nav-button button button-large"
+              data-target=".menu-content-area-theme"
+              tabindex="1"
+            >
+              Theme
+            </button>
+            <button
+              class="menu-nav-button button button-large"
+              data-target=".menu-content-area-background"
+              tabindex="1"
+            >
+              Background
+            </button>
+          </div>
+          <div class="menu-nav-area">
+            <button
+              class="menu-close button button-block button-large mb-0"
+              tabindex="1"
+            >
+              <span class="icon-close"></span>
+            </button>
+          </div>
         </div>
 
         <div class="menu-content">
-
-            <div class="menu-content-area menu-content-area-layout">
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Area</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <label for="control-layout-width">Width</label>
-                            <input class="control-layout-width" id="control-layout-width" max="100" min="5" tabindex="1"
-                                   type="range" value="0">
-                        </div>
-                        <hr>
-                        <label class="control-layout-alignment-horizontal-label">Horizontal Alignment</label>
-                        <div class="input-wrap">
-                            <input class="control-layout-alignment-horizontal-left"
-                                   id="control-layout-alignment-horizontal-left"
-                                   name="control-layout-alignment-horizontal"
-                                   tabindex="1" type="radio" value="left">
-                            <label for="control-layout-alignment-horizontal-left">Left</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-layout-alignment-horizontal-center"
-                                   id="control-layout-alignment-horizontal-center"
-                                   name="control-layout-alignment-horizontal"
-                                   tabindex="1" type="radio" value="center">
-                            <label for="control-layout-alignment-horizontal-center">Centre</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-layout-alignment-horizontal-right"
-                                   id="control-layout-alignment-horizontal-right"
-                                   name="control-layout-alignment-horizontal"
-                                   tabindex="1" type="radio" value="right">
-                            <label for="control-layout-alignment-horizontal-right">Right</label>
-                        </div>
-                        <p class="input-helper small muted">Effects may not be visible if the Layout Area is full
-                            width.</p>
-                        <hr>
-                        <label class="control-layout-alignment-vertical-label">Vertical Alignment</label>
-                        <div class="input-wrap">
-                            <input class="control-layout-alignment-vertical-top"
-                                   id="control-layout-alignment-vertical-top" name="control-layout-alignment-vertical"
-                                   tabindex="1" type="radio" value="top">
-                            <label for="control-layout-alignment-vertical-top">Top</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-layout-alignment-vertical-center"
-                                   id="control-layout-alignment-vertical-center"
-                                   name="control-layout-alignment-vertical"
-                                   tabindex="1" type="radio" value="center">
-                            <label for="control-layout-alignment-vertical-center">Centre</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-layout-alignment-vertical-bottom"
-                                   id="control-layout-alignment-vertical-bottom"
-                                   name="control-layout-alignment-vertical"
-                                   tabindex="1" type="radio" value="bottom">
-                            <label for="control-layout-alignment-vertical-bottom">Bottom</label>
-                        </div>
-                        <p class="input-helper small muted">Effects may not be visible if Bookmarks fill the page.</p>
-                    </div>
+          <div class="menu-content-area menu-content-area-layout">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Area</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <label for="control-layout-width">Width</label>
+                  <input
+                    class="control-layout-width"
+                    id="control-layout-width"
+                    max="100"
+                    min="5"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
                 </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Padding</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <label for="control-layout-padding">Padding outside Header and Bookmark Area</label>
-                            <input class="control-layout-padding" id="control-layout-padding" max="40" min="0"
-                                   tabindex="1" type="range" value="0">
-                        </div>
-                    </div>
+                <hr />
+                <label class="control-layout-alignment-horizontal-label"
+                  >Horizontal Alignment</label
+                >
+                <div class="input-wrap">
+                  <input
+                    class="control-layout-alignment-horizontal-left"
+                    id="control-layout-alignment-horizontal-left"
+                    name="control-layout-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="left"
+                  />
+                  <label for="control-layout-alignment-horizontal-left"
+                    >Left</label
+                  >
                 </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Gutter</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <label for="control-layout-gutter">Gutter between Header and Bookmark items</label>
-                            <input class="control-layout-gutter" id="control-layout-gutter" max="40" min="0"
-                                   tabindex="1" type="range" value="0">
-                        </div>
-                    </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-layout-alignment-horizontal-center"
+                    id="control-layout-alignment-horizontal-center"
+                    name="control-layout-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="center"
+                  />
+                  <label for="control-layout-alignment-horizontal-center"
+                    >Centre</label
+                  >
                 </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Page</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <label for="control-layout-title">Title</label>
-                            <input autocapitalize="off" autocomplete="off" autocorrect="off"
-                                   class="control-layout-title mb-0" id="control-layout-title" placeholder="New Tab"
-                                   spellcheck="false"
-                                   tabindex="1" type="text">
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-layout-scroll-past-end" id="control-layout-scroll-past-end"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-layout-scroll-past-end">Scroll past end</label>
-                        </div>
-                    </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-layout-alignment-horizontal-right"
+                    id="control-layout-alignment-horizontal-right"
+                    name="control-layout-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="right"
+                  />
+                  <label for="control-layout-alignment-horizontal-right"
+                    >Right</label
+                  >
                 </div>
+                <p class="input-helper small muted">
+                  Effects may not be visible if the Layout Area is full width.
+                </p>
+                <hr />
+                <label class="control-layout-alignment-vertical-label"
+                  >Vertical Alignment</label
+                >
+                <div class="input-wrap">
+                  <input
+                    class="control-layout-alignment-vertical-top"
+                    id="control-layout-alignment-vertical-top"
+                    name="control-layout-alignment-vertical"
+                    tabindex="1"
+                    type="radio"
+                    value="top"
+                  />
+                  <label for="control-layout-alignment-vertical-top">Top</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-layout-alignment-vertical-center"
+                    id="control-layout-alignment-vertical-center"
+                    name="control-layout-alignment-vertical"
+                    tabindex="1"
+                    type="radio"
+                    value="center"
+                  />
+                  <label for="control-layout-alignment-vertical-center"
+                    >Centre</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-layout-alignment-vertical-bottom"
+                    id="control-layout-alignment-vertical-bottom"
+                    name="control-layout-alignment-vertical"
+                    tabindex="1"
+                    type="radio"
+                    value="bottom"
+                  />
+                  <label for="control-layout-alignment-vertical-bottom"
+                    >Bottom</label
+                  >
+                </div>
+                <p class="input-helper small muted">
+                  Effects may not be visible if Bookmarks fill the page.
+                </p>
+              </div>
             </div>
-
-            <div class="menu-content-area menu-content-area-header is-hidden">
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Area</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <label for="control-header-area-width">Width</label>
-                            <input class="control-header-area-width" id="control-header-area-width" max="100"
-                                   min="10" tabindex="1" type="range" value="0">
-                            <p class="input-helper small muted">Max width is defined by Layout Area Width.</p>
-                        </div>
-                        <div class="button-wrap">
-                            <button class="control-header-area-width-match button mb-0" tabindex="1">Match Bookmarks
-                                Area
-                            </button>
-                        </div>
-                        <hr>
-                        <label class="control-header-area-alignment-horizontal-label">Area Horizontal Alignment</label>
-                        <div class="input-wrap">
-                            <input class="control-header-area-alignment-horizontal-left"
-                                   id="control-header-area-alignment-horizontal-left"
-                                   name="control-header-area-alignment-horizontal"
-                                   tabindex="1" type="radio" value="left">
-                            <label for="control-header-area-alignment-horizontal-left">Left</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-header-area-alignment-horizontal-center"
-                                   id="control-header-area-alignment-horizontal-center"
-                                   name="control-header-area-alignment-horizontal"
-                                   tabindex="1" type="radio" value="center">
-                            <label for="control-header-area-alignment-horizontal-center">Centre</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-header-area-alignment-horizontal-right"
-                                   id="control-header-area-alignment-horizontal-right"
-                                   name="control-header-area-alignment-horizontal"
-                                   tabindex="1" type="radio" value="right">
-                            <label for="control-header-area-alignment-horizontal-right">Right</label>
-                        </div>
-                        <p class="input-helper small muted">Effects may not be visible if the Header Area is full
-                            width.</p>
-                        <hr>
-                        <label class="control-header-item-alignment-horizontal-label">Item Horizontal Alignment</label>
-                        <div class="input-wrap">
-                            <input class="control-header-item-alignment-horizontal-left"
-                                   id="control-header-item-alignment-horizontal-left"
-                                   name="control-header-item-alignment-horizontal"
-                                   tabindex="1" type="radio" value="left">
-                            <label for="control-header-item-alignment-horizontal-left">Left</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-header-item-alignment-horizontal-center"
-                                   id="control-header-item-alignment-horizontal-center"
-                                   name="control-header-item-alignment-horizontal"
-                                   tabindex="1" type="radio" value="center">
-                            <label for="control-header-item-alignment-horizontal-center">Centre</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-header-item-alignment-horizontal-right"
-                                   id="control-header-item-alignment-horizontal-right"
-                                   name="control-header-item-alignment-horizontal"
-                                   tabindex="1" type="radio" value="right">
-                            <label for="control-header-item-alignment-horizontal-right">Right</label>
-                        </div>
-                        <p class="input-helper small muted">Effects may not be visible if the Search box size is set to
-                            Auto and grows to fill available space.</p>
-                    </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Padding</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <label for="control-layout-padding"
+                    >Padding outside Header and Bookmark Area</label
+                  >
+                  <input
+                    class="control-layout-padding"
+                    id="control-layout-padding"
+                    max="40"
+                    min="0"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
                 </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Greeting</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-header-greeting-show" id="control-header-greeting-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-greeting-show">Show</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-greeting-type-good" id="control-header-greeting-type-good"
-                                       name="control-header-greeting-type" tabindex="1" type="radio" value="good">
-                                <label for="control-header-greeting-type-good">"Good morning..."</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-greeting-type-hello"
-                                       id="control-header-greeting-type-hello" name="control-header-greeting-type"
-                                       tabindex="1" type="radio" value="hello">
-                                <label for="control-header-greeting-type-hello">"Hello..."</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-greeting-type-hi" id="control-header-greeting-type-hi"
-                                       name="control-header-greeting-type" tabindex="1" type="radio" value="hi">
-                                <label for="control-header-greeting-type-hi">"Hi..."</label>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <label for="control-header-greeting-name">Name</label>
-                                <input autocapitalize="off" autocomplete="off"
-                                       class="control-header-greeting-name mb-0"
-                                       id="control-header-greeting-name" placeholder="Nickname, alias or superhero name"
-                                       spellcheck="false" tabindex="1" type="text">
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <label for="control-header-greeting-size">Size</label>
-                                <input class="control-header-greeting-size" id="control-header-greeting-size"
-                                       max="500" min="20" step="20" tabindex="1" type="range" value="0">
-                            </div>
-                            <div class="button-wrap">
-                                <button class="control-header-greeting-size-default button mb-0" tabindex="1">Default
-                                    greeting size
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Transitional words</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-header-transitional-show" id="control-header-transitional-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-transitional-show">Show</label>
-                            <p class="input-helper small muted">Available when Date or Time is shown.</p>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-transitional-type-timeanddate"
-                                       id="control-header-transitional-type-timeanddate"
-                                       name="control-header-transitional-type"
-                                       tabindex="1" type="radio" value="timeanddate">
-                                <label for="control-header-transitional-type-timeanddate">"The time and date is"</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-transitional-type-its"
-                                       id="control-header-transitional-type-its" name="control-header-transitional-type"
-                                       tabindex="1" type="radio" value="its">
-                                <label for="control-header-transitional-type-its">"It's"</label>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <label for="control-header-transitional-size">Size</label>
-                                <input class="control-header-transitional-size" id="control-header-transitional-size"
-                                       max="500" min="20" step="20" tabindex="1" type="range" value="0">
-                            </div>
-                            <div class="button-wrap">
-                                <button class="control-header-transitional-size-default button mb-0" tabindex="1">
-                                    Default transitional size
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Clock</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-header-clock-hours-show" id="control-header-clock-hours-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-clock-hours-show">Hours</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-clock-hours-display-number"
-                                       id="control-header-clock-hours-display-number" name="control-header-clock-hours"
-                                       tabindex="1" type="radio" value="number">
-                                <label for="control-header-clock-hours-display-number">As number</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-clock-hours-display-word"
-                                       id="control-header-clock-hours-display-word" name="control-header-clock-hours"
-                                       tabindex="1" type="radio" value="word">
-                                <label for="control-header-clock-hours-display-word">As word</label>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-clock-minutes-show" id="control-header-clock-minutes-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-clock-minutes-show">Minutes</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-clock-minutes-display-number"
-                                       id="control-header-clock-minutes-display-number"
-                                       name="control-header-clock-minutes"
-                                       tabindex="1" type="radio" value="number">
-                                <label for="control-header-clock-minutes-display-number">As number</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-clock-minutes-display-word"
-                                       id="control-header-clock-minutes-display-word"
-                                       name="control-header-clock-minutes"
-                                       tabindex="1" type="radio" value="word">
-                                <label for="control-header-clock-minutes-display-word">As word</label>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-clock-seconds-show" id="control-header-clock-seconds-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-clock-seconds-show">Seconds</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-clock-seconds-display-number"
-                                       id="control-header-clock-seconds-display-number"
-                                       name="control-header-clock-seconds"
-                                       tabindex="1" type="radio" value="number">
-                                <label for="control-header-clock-seconds-display-number">As number</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-clock-seconds-display-word"
-                                       id="control-header-clock-seconds-display-word"
-                                       name="control-header-clock-seconds"
-                                       tabindex="1" type="radio" value="word">
-                                <label for="control-header-clock-seconds-display-word">As word</label>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-clock-separator-show" id="control-header-clock-separator-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-clock-separator-show">Separators</label>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-clock-hour24-show" id="control-header-clock-hour24-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-clock-hour24-show">24 Hours</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-header-clock-meridiem-show" id="control-header-clock-meridiem-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-clock-meridiem-show">AM/PM</label>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <label for="control-header-clock-size">Size</label>
-                            <input class="control-header-clock-size" id="control-header-clock-size" max="500"
-                                   min="20" step="20" tabindex="1" type="range" value="0">
-                        </div>
-                        <div class="button-wrap">
-                            <button class="control-header-clock-size-default button mb-0" tabindex="1">Default clock
-                                size
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Date</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-header-date-day-show" id="control-header-date-day-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-date-day-show">Day</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-date-day-display-number"
-                                       id="control-header-date-day-display-number"
-                                       name="control-header-date-day-display"
-                                       tabindex="1" type="radio" value="number">
-                                <label for="control-header-date-day-display-number">As number</label>
-                            </div>
-                            <div class="form-indent">
-                                <label class="control-header-date-day-week-start-label">Start of the week</label>
-                                <div class="input-wrap">
-                                    <input class="control-header-date-day-week-start-monday"
-                                           id="control-header-date-day-week-start-monday"
-                                           name="control-header-date-day-week-start"
-                                           tabindex="1" type="radio" value="monday">
-                                    <label for="control-header-date-day-week-start-monday">Monday</label>
-                                </div>
-                                <div class="input-wrap">
-                                    <input class="control-header-date-day-week-start-sunday"
-                                           id="control-header-date-day-week-start-sunday"
-                                           name="control-header-date-day-week-start"
-                                           tabindex="1" type="radio" value="sunday">
-                                    <label for="control-header-date-day-week-start-sunday">Sunday</label>
-                                    <p class="input-helper small muted">Define what day "1" represents, either Monday or
-                                        Sunday.</p>
-                                </div>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-date-day-display-word"
-                                       id="control-header-date-day-display-word" name="control-header-date-day-display"
-                                       tabindex="1" type="radio" value="word">
-                                <label for="control-header-date-day-display-word">As word</label>
-                            </div>
-                            <div class="form-indent">
-                                <label class="control-header-date-day-length-label">Word length</label>
-                                <div class="input-wrap">
-                                    <input class="control-header-date-day-length-long"
-                                           id="control-header-date-day-length-long"
-                                           name="control-header-date-day-length"
-                                           tabindex="1" type="radio" value="long">
-                                    <label for="control-header-date-day-length-long">Long</label>
-                                </div>
-                                <div class="input-wrap">
-                                    <input class="control-header-date-day-length-short"
-                                           id="control-header-date-day-length-short"
-                                           name="control-header-date-day-length"
-                                           tabindex="1" type="radio" value="short">
-                                    <label for="control-header-date-day-length-short">Short</label>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-date-date-show" id="control-header-date-date-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-date-date-show">Date</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-date-date-display-number"
-                                       id="control-header-date-date-display-number"
-                                       name="control-header-date-date-display"
-                                       tabindex="1" type="radio" value="number">
-                                <label for="control-header-date-date-display-number">As number</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-date-date-display-word"
-                                       id="control-header-date-date-display-word"
-                                       name="control-header-date-date-display"
-                                       tabindex="1" type="radio" value="word">
-                                <label for="control-header-date-date-display-word">As word</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-date-date-ordinal" id="control-header-date-date-ordinal"
-                                       tabindex="1" type="checkbox">
-                                <label for="control-header-date-date-ordinal">Ordinal numbers</label>
-                                <p class="input-helper small muted">Display Date as 1st, 2nd, 3rd, 4th etc.</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-date-month-show" id="control-header-date-month-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-date-month-show">Month</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-date-month-display-number"
-                                       id="control-header-date-month-display-number"
-                                       name="control-header-date-month-display"
-                                       tabindex="1" type="radio" value="number">
-                                <label for="control-header-date-month-display-number">As number</label>
-                            </div>
-                            <div class="form-indent">
-                                <div class="input-wrap">
-                                    <input class="control-header-date-month-ordinal"
-                                           id="control-header-date-month-ordinal" tabindex="1" type="checkbox">
-                                    <label for="control-header-date-month-ordinal">Ordinal numbers</label>
-                                    <p class="input-helper small muted">Display Month as 1st, 2nd, 3rd, 4th etc.</p>
-                                </div>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-date-month-display-word"
-                                       id="control-header-date-month-display-word"
-                                       name="control-header-date-month-display"
-                                       tabindex="1" type="radio" value="word">
-                                <label for="control-header-date-month-display-word">As word</label>
-                            </div>
-                            <div class="form-indent">
-                                <label class="control-header-date-month-length-label">Word length</label>
-                                <div class="input-wrap">
-                                    <input class="control-header-date-month-length-long"
-                                           id="control-header-date-month-length-long"
-                                           name="control-header-date-month-length"
-                                           tabindex="1" type="radio" value="long">
-                                    <label for="control-header-date-month-length-long">Long</label>
-                                </div>
-                                <div class="input-wrap">
-                                    <input class="control-header-date-month-length-short"
-                                           id="control-header-date-month-length-short"
-                                           name="control-header-date-month-length"
-                                           tabindex="1" type="radio" value="short">
-                                    <label for="control-header-date-month-length-short">Short</label>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-date-year-show" id="control-header-date-year-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-date-year-show">Year</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-date-year-display-number"
-                                       id="control-header-date-year-display-number"
-                                       name="control-header-date-year-display"
-                                       tabindex="1" type="radio" value="number">
-                                <label for="control-header-date-year-display-number">As number</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-date-year-display-word"
-                                       id="control-header-date-year-display-word"
-                                       name="control-header-date-year-display"
-                                       tabindex="1" type="radio" value="word">
-                                <label for="control-header-date-year-display-word">As word</label>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-date-separator-show" id="control-header-date-separator-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-date-separator-show">Separators</label>
-                        </div>
-                        <hr>
-                        <label class="control-header-date-format-label">Format</label>
-                        <div class="input-wrap">
-                            <input class="control-header-date-format-datemonth"
-                                   id="control-header-date-format-datemonth" name="control-header-date-format"
-                                   tabindex="1" type="radio" value="datemonth">
-                            <label for="control-header-date-format-datemonth">Date / Month</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-header-date-format-monthdate"
-                                   id="control-header-date-format-monthdate" name="control-header-date-format"
-                                   tabindex="1" type="radio" value="monthdate">
-                            <label for="control-header-date-format-monthdate">Month / Date</label>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <label for="control-header-date-size">Size</label>
-                            <input class="control-header-date-size" id="control-header-date-size" max="500" min="20"
-                                   step="20" tabindex="1" type="range" value="0">
-                        </div>
-                        <div class="button-wrap">
-                            <button class="control-header-date-size-default button mb-0" tabindex="1">Default date
-                                size
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Search</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-header-search-show" id="control-header-search-show" tabindex="1"
-                                   type="checkbox">
-                            <label for="control-header-search-show">Show</label>
-                        </div>
-                        <div class="form-indent">
-                            <label class="control-header-search-style-label">Search box width</label>
-                            <div class="input-wrap">
-                                <input class="control-header-search-style-auto" id="control-header-search-style-auto"
-                                       name="control-header-search-width" tabindex="1" type="radio" value="auto">
-                                <label for="control-header-search-style-auto">Auto</label>
-                                <p class="input-helper small muted">Search box will grow to best fit available
-                                    space.</p>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-search-style-custom"
-                                       id="control-header-search-style-custom" name="control-header-search-width"
-                                       tabindex="1" type="radio" value="custom">
-                                <label for="control-header-search-style-custom">Custom</label>
-                                <p class="input-helper small muted">Define how wide the Search box should be inside the
-                                    Header Area.</p>
-                            </div>
-                            <div class="form-indent">
-                                <div class="input-wrap">
-                                    <label for="control-header-search-width">Width</label>
-                                    <input class="control-header-search-width" id="control-header-search-width"
-                                           max="100" min="10" tabindex="1" type="range" value="0">
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <input class="control-header-search-focus" id="control-header-search-focus"
-                                       tabindex="1" type="checkbox">
-                                <label for="control-header-search-focus">Focus on load/refresh</label>
-                                <p class="input-helper small muted">May not work in Chrome.</p>
-                            </div>
-                            <hr>
-                            <label class="control-header-search-engine-label">Search engine</label>
-                            <div class="input-wrap">
-                                <input class="control-header-search-engine-google"
-                                       id="control-header-search-engine-google" name="control-header-search-engine"
-                                       tabindex="1" type="radio" value="google">
-                                <label for="control-header-search-engine-google">Google</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-search-engine-duckduckgo"
-                                       id="control-header-search-engine-duckduckgo" name="control-header-search-engine"
-                                       tabindex="1" type="radio" value="duckduckgo">
-                                <label for="control-header-search-engine-duckduckgo">Duck Duck Go</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-search-engine-youtube"
-                                       id="control-header-search-engine-youtube" name="control-header-search-engine"
-                                       tabindex="1" type="radio" value="youtube">
-                                <label for="control-header-search-engine-youtube">YouTube</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-search-engine-giphy"
-                                       id="control-header-search-engine-giphy" name="control-header-search-engine"
-                                       tabindex="1" type="radio" value="giphy">
-                                <label for="control-header-search-engine-giphy">Giphy</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-search-engine-custom"
-                                       id="control-header-search-engine-custom" name="control-header-search-engine"
-                                       tabindex="1" type="radio" value="custom">
-                                <label for="control-header-search-engine-custom">Custom</label>
-                            </div>
-                            <div class="form-indent">
-                                <div class="input-wrap">
-                                    <label for="control-header-search-engine-custom-name">Name</label>
-                                    <input autocapitalize="off"
-                                           autocomplete="off"
-                                           class="control-header-search-engine-custom-name mb-0"
-                                           id="control-header-search-engine-custom-name"
-                                           placeholder="Search engine name" spellcheck="false"
-                                           tabindex="1" type="text">
-                                </div>
-                                <div class="input-wrap">
-                                    <label for="control-header-search-engine-custom-url">URL</label>
-                                    <input autocapitalize="off"
-                                           autocomplete="off" autocorrect="off"
-                                           class="control-header-search-engine-custom-url"
-                                           id="control-header-search-engine-custom-url" placeholder="https://"
-                                           spellcheck="false"
-                                           tabindex="1" type="text">
-                                    <p class="input-helper small muted">Enter a web address with the search parameters,
-                                        eg: "https://vimeo.com/search?q="</p>
-                                    <p class="input-helper small muted mb-0">nightTab will add the search term entered
-                                        into the Search input at the end of the above URL</p>
-                                </div>
-                            </div>
-                            <hr>
-                            <label class="control-header-search-text-align-label">Align Text</label>
-                            <div class="input-wrap">
-                                <input class="control-header-search-text-align-left"
-                                       id="control-header-search-text-align-left"
-                                       name="control-header-search-text-align"
-                                       tabindex="1" type="radio" value="left">
-                                <label for="control-header-search-text-align-left">Left</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-search-text-align-center"
-                                       id="control-header-search-text-align-center"
-                                       name="control-header-search-text-align"
-                                       tabindex="1" type="radio" value="center">
-                                <label for="control-header-search-text-align-center">Centre</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-search-text-align-right"
-                                       id="control-header-search-text-align-right"
-                                       name="control-header-search-text-align"
-                                       tabindex="1" type="radio" value="right">
-                                <label for="control-header-search-text-align-right">Right</label>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <label for="control-header-search-size">Size</label>
-                                <input class="control-header-search-size" id="control-header-search-size" max="500"
-                                       min="20" step="20" tabindex="1" type="range" value="0">
-                                <p class="input-helper small muted">Only the Search box width control will change the
-                                    Width of the Search box.</p>
-                            </div>
-                            <div class="button-wrap">
-                                <button class="control-header-search-size-default button mb-0" tabindex="1">Default
-                                    search size
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Buttons</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <label class="control-header-button-style-label">Button style</label>
-                        <div class="input-wrap">
-                            <input class="control-header-button-style-box" id="control-header-button-style-box"
-                                   name="control-header-button-style" tabindex="1" type="radio" value="box">
-                            <label for="control-header-button-style-box">Box</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-header-button-style-clear" id="control-header-button-style-clear"
-                                   name="control-header-button-style" tabindex="1" type="radio" value="clear">
-                            <label for="control-header-button-style-clear">Clear</label>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-button-edit-add-show" id="control-header-button-edit-add-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-button-edit-add-show">Show Edit/Add</label>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <input class="control-header-button-accent-show" id="control-header-button-accent-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-header-button-accent-show">Show Accent</label>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <label for="control-header-button-size">Size</label>
-                            <input class="control-header-button-size" id="control-header-button-size" max="500"
-                                   min="20" step="20" tabindex="1" type="range" value="0">
-                        </div>
-                        <div class="button-wrap">
-                            <button class="control-header-button-size-default button mb-0" tabindex="1">Default button
-                                size
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Border</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <label for="control-header-border-top">Top</label>
-                            <input class="control-header-border-top mb-0" id="control-header-border-top" max="60"
-                                   min="0" tabindex="1" type="range" value="0">
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <label for="control-header-border-bottom">Bottom</label>
-                            <input class="control-header-border-bottom" id="control-header-border-bottom" max="60"
-                                   min="0" tabindex="1" type="range" value="0">
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Shade</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-header-shade-show" id="control-header-shade-show" tabindex="1"
-                                   type="checkbox">
-                            <label for="control-header-shade-show">Show</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-header-shade-style-always" id="control-header-shade-style-always"
-                                       name="control-header-shade-style" tabindex="1" type="radio" value="always">
-                                <label for="control-header-shade-style-always">Always visible</label>
-                                <p class="input-helper small muted">Useful for when a Background Image is shown.</p>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-header-shade-style-scroll" id="control-header-shade-style-scroll"
-                                       name="control-header-shade-style" tabindex="1" type="radio" value="scroll">
-                                <label for="control-header-shade-style-scroll">Visible on scroll</label>
-                                <p class="input-helper small muted">The page will not scroll if Bookmarks are not
-                                    shown.</p>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <label for="control-header-shade-opacity">Opacity</label>
-                                <input class="control-header-shade-opacity" id="control-header-shade-opacity"
-                                       max="100" min="0" tabindex="1" type="range" value="0">
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <input class="control-header-radius" id="control-header-radius" tabindex="1"
-                                       type="checkbox">
-                                <label for="control-header-radius">Corner radius</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-
-            <div class="menu-content-area menu-content-area-bookmarks is-hidden">
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Area</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <label for="control-link-area-width">Width</label>
-                            <input class="control-link-area-width" id="control-link-area-width" max="100" min="10"
-                                   tabindex="1" type="range" value="0">
-                            <p class="input-helper small muted">Max width is defined by Layout Area Width.</p>
-                        </div>
-                        <div class="button-wrap">
-                            <button class="control-link-area-width-match button mb-0" tabindex="1">Match Header Area
-                            </button>
-                        </div>
-                        <hr>
-                        <label class="control-link-area-alignment-horizontal-label">Horizontal Alignment</label>
-                        <div class="input-wrap">
-                            <input class="control-link-area-alignment-horizontal-left"
-                                   id="control-link-area-alignment-horizontal-left"
-                                   name="control-link-area-alignment-horizontal"
-                                   tabindex="1" type="radio" value="left">
-                            <label for="control-link-area-alignment-horizontal-left">Left</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-link-area-alignment-horizontal-center"
-                                   id="control-link-area-alignment-horizontal-center"
-                                   name="control-link-area-alignment-horizontal"
-                                   tabindex="1" type="radio" value="center">
-                            <label for="control-link-area-alignment-horizontal-center">Centre</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-link-area-alignment-horizontal-right"
-                                   id="control-link-area-alignment-horizontal-right"
-                                   name="control-link-area-alignment-horizontal"
-                                   tabindex="1" type="radio" value="right">
-                            <label for="control-link-area-alignment-horizontal-right">Right</label>
-                            <p class="input-helper small muted">Effects may not be visible if the Bookmark Area is full
-                                width.</p>
-                        </div>
-                    </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Gutter</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <label for="control-layout-gutter"
+                    >Gutter between Header and Bookmark items</label
+                  >
+                  <input
+                    class="control-layout-gutter"
+                    id="control-layout-gutter"
+                    max="40"
+                    min="0"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
                 </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Bookmarks</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-link-show" id="control-link-show" tabindex="1" type="checkbox">
-                            <label for="control-link-show">Show</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <label for="control-link-item-size">Tile Size</label>
-                                <input class="control-link-item-size" id="control-link-item-size" max="500" min="20"
-                                       step="10" tabindex="1" type="range" value="0">
-                            </div>
-                            <div class="button-wrap">
-                                <button class="control-link-item-size-default button mb-0" tabindex="1">Default tile
-                                    size
-                                </button>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <input class="control-link-item-display-show" id="control-link-item-display-show"
-                                       tabindex="1" type="checkbox">
-                                <label for="control-link-item-display-show">Letter/Icon</label>
-                            </div>
-                            <div class="form-indent">
-                                <div class="input-wrap">
-                                    <label for="control-link-item-display-letter-size">Letter size</label>
-                                    <input class="control-link-item-display-letter-size"
-                                           id="control-link-item-display-letter-size" max="3000" min="1" tabindex="1"
-                                           type="range" value="0">
-                                </div>
-                                <div class="button-wrap">
-                                    <button class="control-link-item-display-letter-size-default button mb-0"
-                                            tabindex="1">Default letter size
-                                    </button>
-                                </div>
-                                <hr>
-                                <div class="input-wrap">
-                                    <label for="control-link-item-display-icon-size">Icon size</label>
-                                    <input class="control-link-item-display-icon-size"
-                                           id="control-link-item-display-icon-size" max="3000" min="1" tabindex="1"
-                                           type="range" value="0">
-                                </div>
-                                <div class="button-wrap">
-                                    <button class="control-link-item-display-icon-size-default button mb-0"
-                                            tabindex="1">Default icon size
-                                    </button>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <input class="control-link-item-name-show" id="control-link-item-name-show"
-                                       tabindex="1" type="checkbox">
-                                <label for="control-link-item-name-show">Name</label>
-                                <div class="form-indent">
-                                    <div class="input-wrap">
-                                        <label for="control-link-item-name-size">Name size</label>
-                                        <input class="control-link-item-name-size" id="control-link-item-name-size"
-                                               max="1500" min="1" tabindex="1" type="range" value="0">
-                                    </div>
-                                    <div class="button-wrap">
-                                        <button class="control-link-item-name-size-default button mb-0" tabindex="1">
-                                            Default icon size
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <input class="control-link-item-url-show" id="control-link-item-url-show"
-                                       tabindex="1" type="checkbox">
-                                <label for="control-link-item-url-show">URL on hover</label>
-                            </div>
-                            <div class="form-indent">
-                                <div class="input-wrap">
-                                    <input class="control-link-item-url-style-dark"
-                                           id="control-link-item-url-style-dark" name="control-link-item-url-style"
-                                           tabindex="1" type="radio" value="dark">
-                                    <label for="control-link-item-url-style-dark">Dark text</label>
-                                </div>
-                                <div class="input-wrap">
-                                    <input class="control-link-item-url-style-light"
-                                           id="control-link-item-url-style-light" name="control-link-item-url-style"
-                                           tabindex="1" type="radio" value="light">
-                                    <label for="control-link-item-url-style-light">Light text</label>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <input class="control-link-item-line-show" id="control-link-item-line-show"
-                                       tabindex="1" type="checkbox">
-                                <label for="control-link-item-line-show">Tile line</label>
-                            </div>
-                            <hr>
-                            <label class="control-link-item-display-alignment-horizontal-label">Content Horizontal
-                                Alignment</label>
-                            <div class="input-wrap">
-                                <input class="control-link-item-display-alignment-horizontal-left"
-                                       id="control-link-item-display-alignment-horizontal-left"
-                                       name="control-link-item-display-alignment-horizontal"
-                                       tabindex="1" type="radio" value="left">
-                                <label for="control-link-item-display-alignment-horizontal-left">Left</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-link-item-display-alignment-horizontal-center"
-                                       id="control-link-item-display-alignment-horizontal-center"
-                                       name="control-link-item-display-alignment-horizontal"
-                                       tabindex="1" type="radio"
-                                       value="center">
-                                <label for="control-link-item-display-alignment-horizontal-center">Centre</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-link-item-display-alignment-horizontal-right"
-                                       id="control-link-item-display-alignment-horizontal-right"
-                                       name="control-link-item-display-alignment-horizontal"
-                                       tabindex="1" type="radio" value="right">
-                                <label for="control-link-item-display-alignment-horizontal-right">Right</label>
-                            </div>
-                            <hr>
-                            <label class="control-link-item-display-alignment-vertical-label">Content Vertical
-                                Alignment</label>
-                            <div class="input-wrap">
-                                <input class="control-link-item-display-alignment-vertical-top"
-                                       id="control-link-item-display-alignment-vertical-top"
-                                       name="control-link-item-display-alignment-vertical"
-                                       tabindex="1" type="radio" value="top">
-                                <label for="control-link-item-display-alignment-vertical-top">Top</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-link-item-display-alignment-vertical-center"
-                                       id="control-link-item-display-alignment-vertical-center"
-                                       name="control-link-item-display-alignment-vertical"
-                                       tabindex="1" type="radio" value="center">
-                                <label for="control-link-item-display-alignment-vertical-center">Centre</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-link-item-display-alignment-vertical-bottom"
-                                       id="control-link-item-display-alignment-vertical-bottom"
-                                       name="control-link-item-display-alignment-vertical"
-                                       tabindex="1" type="radio" value="bottom">
-                                <label for="control-link-item-display-alignment-vertical-bottom">Bottom</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Open</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-link-new-tab" id="control-link-new-tab" tabindex="1" type="checkbox">
-                            <label for="control-link-new-tab">In a new tab</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Style</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-link-style-block" id="control-link-style-block"
-                                   name="control-link-style"
-                                   tabindex="1" type="radio" value="block">
-                            <label for="control-link-style-block">Block</label>
-                            <p class="input-helper small muted">Bookmark tiles more square shaped with content stacked
-                                vertically.</p>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-link-style-list" id="control-link-style-list"
-                                   name="control-link-style"
-                                   tabindex="1" type="radio" value="list">
-                            <label for="control-link-style-list">List</label>
-                            <p class="input-helper small muted">Bookmark tiles more short and wide with content stacked
-                                horizontally.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Sort</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-link-sort-none" id="control-link-sort-none" name="control-link-sort"
-                                   tabindex="1" type="radio" value="none">
-                            <label for="control-link-sort-none">None (as added)</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-link-sort-letter" id="control-link-sort-letter"
-                                   name="control-link-sort"
-                                   tabindex="1" type="radio" value="letter">
-                            <label for="control-link-sort-letter">Letter</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-link-sort-icon" id="control-link-sort-icon" name="control-link-sort"
-                                   tabindex="1" type="radio" value="icon">
-                            <label for="control-link-sort-icon">Icon</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-link-sort-name" id="control-link-sort-name" name="control-link-sort"
-                                   tabindex="1" type="radio" value="name">
-                            <label for="control-link-sort-name">Name</label>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-
-            <div class="menu-content-area menu-content-area-theme is-hidden">
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Style</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-theme-style-dark" id="control-theme-style-dark"
-                                   name="control-theme-style"
-                                   tabindex="1" type="radio" value="dark">
-                            <label for="control-theme-style-dark">Dark</label>
-                        </div>
-                        <div class="input-wrap">
-                            <input class="control-theme-style-light" id="control-theme-style-light"
-                                   name="control-theme-style"
-                                   tabindex="1" type="radio" value="light">
-                            <label for="control-theme-style-light">Light</label>
-                            <p class="input-helper small muted">Accent Colour and Background Image may need to be
-                                changed to best fit the Theme Style.</p>
-                        </div>
-                        <hr>
-                        <div class="input-wrap">
-                            <label for="control-theme-radius">Radius</label>
-                            <input class="control-theme-radius" id="control-theme-radius" max="300" min="0" step="20"
-                                   tabindex="1" type="range" value="0">
-                        </div>
-                        <div class="button-wrap">
-                            <button class="control-theme-radius-default button mb-0" tabindex="1">Default radius size
-                            </button>
-                        </div>
-                    </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Page</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <label for="control-layout-title">Title</label>
+                  <input
+                    autocapitalize="off"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="control-layout-title mb-0"
+                    id="control-layout-title"
+                    placeholder="New Tab"
+                    spellcheck="false"
+                    tabindex="1"
+                    type="text"
+                  />
                 </div>
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Accent</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-theme-accent-random-active" id="control-theme-accent-random-active"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-theme-accent-random-active">Random Accent colour on load/refresh</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <input class="control-theme-accent-random-style-any"
-                                       id="control-theme-accent-random-style-any"
-                                       name="control-theme-accent-random-style"
-                                       tabindex="1" type="radio" value="any">
-                                <label for="control-theme-accent-random-style-any">Any colour</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-theme-accent-random-style-light"
-                                       id="control-theme-accent-random-style-light"
-                                       name="control-theme-accent-random-style"
-                                       tabindex="1" type="radio" value="light">
-                                <label for="control-theme-accent-random-style-light">Light colours</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-theme-accent-random-style-dark"
-                                       id="control-theme-accent-random-style-dark"
-                                       name="control-theme-accent-random-style"
-                                       tabindex="1" type="radio" value="dark">
-                                <label for="control-theme-accent-random-style-dark">Dark colours</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-theme-accent-random-style-pastel"
-                                       id="control-theme-accent-random-style-pastel"
-                                       name="control-theme-accent-random-style"
-                                       tabindex="1" type="radio" value="pastel">
-                                <label for="control-theme-accent-random-style-pastel">Pastel colours</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input class="control-theme-accent-random-style-saturated"
-                                       id="control-theme-accent-random-style-saturated"
-                                       name="control-theme-accent-random-style"
-                                       tabindex="1" type="radio" value="saturated">
-                                <label for="control-theme-accent-random-style-saturated">Saturated colours</label>
-                            </div>
-                            <div class="button-wrap">
-                                <button class="control-theme-accent-randomise button mb-0" tabindex="1">Randomise now
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-layout-scroll-past-end"
+                    id="control-layout-scroll-past-end"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-layout-scroll-past-end"
+                    >Scroll past end</label
+                  >
                 </div>
+              </div>
             </div>
+          </div>
 
-            <div class="menu-content-area menu-content-area-background is-hidden">
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <h1 class="menu-item-header-text">Image</h1>
-                    </div>
-                    <div class="menu-item-form">
-                        <div class="input-wrap">
-                            <input class="control-background-image-show" id="control-background-image-show"
-                                   tabindex="1" type="checkbox">
-                            <label for="control-background-image-show">Show</label>
-                        </div>
-                        <div class="form-indent">
-                            <div class="input-wrap">
-                                <label for="control-background-image-url">URL or path</label>
-                                <input autocapitalize="off" autocomplete="off"
-                                       autocorrect="off" class="control-background-image-url"
-                                       id="control-background-image-url" placeholder="http:// or ../path/to/file"
-                                       spellcheck="false" tabindex="1" type="text">
-                                <p class="input-helper small muted">Use a URL or file path to an image. Local files use
-                                    relative file paths, eg:</p>
-                                <p class="input-helper small muted"><i>../background/abstract.jpg</i></p>
-                                <p class="input-helper small muted"><i>../background/gray-steps.jpg</i></p>
-                                <p class="input-helper small muted">Use Unsplash for random images, eg:</p>
-                                <p class="input-helper small muted"><i>https://source.unsplash.com/random/1920x1080/?night,day,sky</i>
-                                </p>
-                                <p class="input-helper small muted">Change parameters after <i>.../ramdom/</i> for more
-                                    options. Loading times may vary when using Unsplash.</p>
-                            </div>
-                            <hr>
-                            <div class="input-wrap">
-                                <label for="control-background-image-opacity">Opacity</label>
-                                <input class="control-background-image-opacity" id="control-background-image-opacity"
-                                       max="100" min="0" tabindex="1" type="range" value="0">
-                            </div>
-                            <div class="input-wrap">
-                                <label for="control-background-image-grayscale">Grayscale</label>
-                                <input class="control-background-image-grayscale"
-                                       id="control-background-image-grayscale" max="100" min="0" tabindex="1"
-                                       type="range" value="0">
-                            </div>
-                            <div class="input-wrap">
-                                <label for="control-background-image-blur">Blur</label>
-                                <input class="control-background-image-blur" id="control-background-image-blur"
-                                       max="100" min="0" tabindex="1" type="range" value="0">
-                            </div>
-                            <div class="input-wrap">
-                                <label for="control-background-image-accent">Accent overlay</label>
-                                <input class="control-background-image-accent" id="control-background-image-accent"
-                                       max="90" min="0" tabindex="1" type="range" value="0">
-                            </div>
-                            <div class="input-wrap">
-                                <label for="control-background-image-scale">Size</label>
-                                <input class="control-background-image-scale" id="control-background-image-scale"
-                                       max="300" min="100" tabindex="1" type="range" value="0">
-                            </div>
-                        </div>
-                    </div>
+          <div class="menu-content-area menu-content-area-header is-hidden">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Area</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <label for="control-header-area-width">Width</label>
+                  <input
+                    class="control-header-area-width"
+                    id="control-header-area-width"
+                    max="100"
+                    min="10"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                  <p class="input-helper small muted">
+                    Max width is defined by Layout Area Width.
+                  </p>
                 </div>
+                <div class="button-wrap">
+                  <button
+                    class="control-header-area-width-match button mb-0"
+                    tabindex="1"
+                  >
+                    Match Bookmarks Area
+                  </button>
+                </div>
+                <hr />
+                <label class="control-header-area-alignment-horizontal-label"
+                  >Area Horizontal Alignment</label
+                >
+                <div class="input-wrap">
+                  <input
+                    class="control-header-area-alignment-horizontal-left"
+                    id="control-header-area-alignment-horizontal-left"
+                    name="control-header-area-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="left"
+                  />
+                  <label for="control-header-area-alignment-horizontal-left"
+                    >Left</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-area-alignment-horizontal-center"
+                    id="control-header-area-alignment-horizontal-center"
+                    name="control-header-area-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="center"
+                  />
+                  <label for="control-header-area-alignment-horizontal-center"
+                    >Centre</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-area-alignment-horizontal-right"
+                    id="control-header-area-alignment-horizontal-right"
+                    name="control-header-area-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="right"
+                  />
+                  <label for="control-header-area-alignment-horizontal-right"
+                    >Right</label
+                  >
+                </div>
+                <p class="input-helper small muted">
+                  Effects may not be visible if the Header Area is full width.
+                </p>
+                <hr />
+                <label class="control-header-item-alignment-horizontal-label"
+                  >Item Horizontal Alignment</label
+                >
+                <div class="input-wrap">
+                  <input
+                    class="control-header-item-alignment-horizontal-left"
+                    id="control-header-item-alignment-horizontal-left"
+                    name="control-header-item-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="left"
+                  />
+                  <label for="control-header-item-alignment-horizontal-left"
+                    >Left</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-item-alignment-horizontal-center"
+                    id="control-header-item-alignment-horizontal-center"
+                    name="control-header-item-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="center"
+                  />
+                  <label for="control-header-item-alignment-horizontal-center"
+                    >Centre</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-item-alignment-horizontal-right"
+                    id="control-header-item-alignment-horizontal-right"
+                    name="control-header-item-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="right"
+                  />
+                  <label for="control-header-item-alignment-horizontal-right"
+                    >Right</label
+                  >
+                </div>
+                <p class="input-helper small muted">
+                  Effects may not be visible if the Search box size is set to
+                  Auto and grows to fill available space.
+                </p>
+              </div>
             </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Greeting</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-header-greeting-show"
+                    id="control-header-greeting-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-greeting-show">Show</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-greeting-type-good"
+                      id="control-header-greeting-type-good"
+                      name="control-header-greeting-type"
+                      tabindex="1"
+                      type="radio"
+                      value="good"
+                    />
+                    <label for="control-header-greeting-type-good"
+                      >"Good morning..."</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-greeting-type-hello"
+                      id="control-header-greeting-type-hello"
+                      name="control-header-greeting-type"
+                      tabindex="1"
+                      type="radio"
+                      value="hello"
+                    />
+                    <label for="control-header-greeting-type-hello"
+                      >"Hello..."</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-greeting-type-hi"
+                      id="control-header-greeting-type-hi"
+                      name="control-header-greeting-type"
+                      tabindex="1"
+                      type="radio"
+                      value="hi"
+                    />
+                    <label for="control-header-greeting-type-hi">"Hi..."</label>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <label for="control-header-greeting-name">Name</label>
+                    <input
+                      autocapitalize="off"
+                      autocomplete="off"
+                      class="control-header-greeting-name mb-0"
+                      id="control-header-greeting-name"
+                      placeholder="Nickname, alias or superhero name"
+                      spellcheck="false"
+                      tabindex="1"
+                      type="text"
+                    />
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <label for="control-header-greeting-size">Size</label>
+                    <input
+                      class="control-header-greeting-size"
+                      id="control-header-greeting-size"
+                      max="500"
+                      min="20"
+                      step="20"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <div class="button-wrap">
+                    <button
+                      class="control-header-greeting-size-default button mb-0"
+                      tabindex="1"
+                    >
+                      Default greeting size
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Transitional words</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-header-transitional-show"
+                    id="control-header-transitional-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-transitional-show">Show</label>
+                  <p class="input-helper small muted">
+                    Available when Date or Time is shown.
+                  </p>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-transitional-type-timeanddate"
+                      id="control-header-transitional-type-timeanddate"
+                      name="control-header-transitional-type"
+                      tabindex="1"
+                      type="radio"
+                      value="timeanddate"
+                    />
+                    <label for="control-header-transitional-type-timeanddate"
+                      >"The time and date is"</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-transitional-type-its"
+                      id="control-header-transitional-type-its"
+                      name="control-header-transitional-type"
+                      tabindex="1"
+                      type="radio"
+                      value="its"
+                    />
+                    <label for="control-header-transitional-type-its"
+                      >"It's"</label
+                    >
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <label for="control-header-transitional-size">Size</label>
+                    <input
+                      class="control-header-transitional-size"
+                      id="control-header-transitional-size"
+                      max="500"
+                      min="20"
+                      step="20"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <div class="button-wrap">
+                    <button
+                      class="control-header-transitional-size-default button mb-0"
+                      tabindex="1"
+                    >
+                      Default transitional size
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Clock</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-header-clock-hours-show"
+                    id="control-header-clock-hours-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-clock-hours-show">Hours</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-clock-hours-display-number"
+                      id="control-header-clock-hours-display-number"
+                      name="control-header-clock-hours"
+                      tabindex="1"
+                      type="radio"
+                      value="number"
+                    />
+                    <label for="control-header-clock-hours-display-number"
+                      >As number</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-clock-hours-display-word"
+                      id="control-header-clock-hours-display-word"
+                      name="control-header-clock-hours"
+                      tabindex="1"
+                      type="radio"
+                      value="word"
+                    />
+                    <label for="control-header-clock-hours-display-word"
+                      >As word</label
+                    >
+                  </div>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-clock-minutes-show"
+                    id="control-header-clock-minutes-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-clock-minutes-show">Minutes</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-clock-minutes-display-number"
+                      id="control-header-clock-minutes-display-number"
+                      name="control-header-clock-minutes"
+                      tabindex="1"
+                      type="radio"
+                      value="number"
+                    />
+                    <label for="control-header-clock-minutes-display-number"
+                      >As number</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-clock-minutes-display-word"
+                      id="control-header-clock-minutes-display-word"
+                      name="control-header-clock-minutes"
+                      tabindex="1"
+                      type="radio"
+                      value="word"
+                    />
+                    <label for="control-header-clock-minutes-display-word"
+                      >As word</label
+                    >
+                  </div>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-clock-seconds-show"
+                    id="control-header-clock-seconds-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-clock-seconds-show">Seconds</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-clock-seconds-display-number"
+                      id="control-header-clock-seconds-display-number"
+                      name="control-header-clock-seconds"
+                      tabindex="1"
+                      type="radio"
+                      value="number"
+                    />
+                    <label for="control-header-clock-seconds-display-number"
+                      >As number</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-clock-seconds-display-word"
+                      id="control-header-clock-seconds-display-word"
+                      name="control-header-clock-seconds"
+                      tabindex="1"
+                      type="radio"
+                      value="word"
+                    />
+                    <label for="control-header-clock-seconds-display-word"
+                      >As word</label
+                    >
+                  </div>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-clock-separator-show"
+                    id="control-header-clock-separator-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-clock-separator-show"
+                    >Separators</label
+                  >
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-clock-hour24-show"
+                    id="control-header-clock-hour24-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-clock-hour24-show">24 Hours</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-clock-meridiem-show"
+                    id="control-header-clock-meridiem-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-clock-meridiem-show">AM/PM</label>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <label for="control-header-clock-size">Size</label>
+                  <input
+                    class="control-header-clock-size"
+                    id="control-header-clock-size"
+                    max="500"
+                    min="20"
+                    step="20"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                </div>
+                <div class="button-wrap">
+                  <button
+                    class="control-header-clock-size-default button mb-0"
+                    tabindex="1"
+                  >
+                    Default clock size
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Date</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-header-date-day-show"
+                    id="control-header-date-day-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-date-day-show">Day</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-day-display-number"
+                      id="control-header-date-day-display-number"
+                      name="control-header-date-day-display"
+                      tabindex="1"
+                      type="radio"
+                      value="number"
+                    />
+                    <label for="control-header-date-day-display-number"
+                      >As number</label
+                    >
+                  </div>
+                  <div class="form-indent">
+                    <label class="control-header-date-day-week-start-label"
+                      >Start of the week</label
+                    >
+                    <div class="input-wrap">
+                      <input
+                        class="control-header-date-day-week-start-monday"
+                        id="control-header-date-day-week-start-monday"
+                        name="control-header-date-day-week-start"
+                        tabindex="1"
+                        type="radio"
+                        value="monday"
+                      />
+                      <label for="control-header-date-day-week-start-monday"
+                        >Monday</label
+                      >
+                    </div>
+                    <div class="input-wrap">
+                      <input
+                        class="control-header-date-day-week-start-sunday"
+                        id="control-header-date-day-week-start-sunday"
+                        name="control-header-date-day-week-start"
+                        tabindex="1"
+                        type="radio"
+                        value="sunday"
+                      />
+                      <label for="control-header-date-day-week-start-sunday"
+                        >Sunday</label
+                      >
+                      <p class="input-helper small muted">
+                        Define what day "1" represents, either Monday or Sunday.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-day-display-word"
+                      id="control-header-date-day-display-word"
+                      name="control-header-date-day-display"
+                      tabindex="1"
+                      type="radio"
+                      value="word"
+                    />
+                    <label for="control-header-date-day-display-word"
+                      >As word</label
+                    >
+                  </div>
+                  <div class="form-indent">
+                    <label class="control-header-date-day-length-label"
+                      >Word length</label
+                    >
+                    <div class="input-wrap">
+                      <input
+                        class="control-header-date-day-length-long"
+                        id="control-header-date-day-length-long"
+                        name="control-header-date-day-length"
+                        tabindex="1"
+                        type="radio"
+                        value="long"
+                      />
+                      <label for="control-header-date-day-length-long"
+                        >Long</label
+                      >
+                    </div>
+                    <div class="input-wrap">
+                      <input
+                        class="control-header-date-day-length-short"
+                        id="control-header-date-day-length-short"
+                        name="control-header-date-day-length"
+                        tabindex="1"
+                        type="radio"
+                        value="short"
+                      />
+                      <label for="control-header-date-day-length-short"
+                        >Short</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-date-date-show"
+                    id="control-header-date-date-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-date-date-show">Date</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-date-display-number"
+                      id="control-header-date-date-display-number"
+                      name="control-header-date-date-display"
+                      tabindex="1"
+                      type="radio"
+                      value="number"
+                    />
+                    <label for="control-header-date-date-display-number"
+                      >As number</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-date-display-word"
+                      id="control-header-date-date-display-word"
+                      name="control-header-date-date-display"
+                      tabindex="1"
+                      type="radio"
+                      value="word"
+                    />
+                    <label for="control-header-date-date-display-word"
+                      >As word</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-date-ordinal"
+                      id="control-header-date-date-ordinal"
+                      tabindex="1"
+                      type="checkbox"
+                    />
+                    <label for="control-header-date-date-ordinal"
+                      >Ordinal numbers</label
+                    >
+                    <p class="input-helper small muted">
+                      Display Date as 1st, 2nd, 3rd, 4th etc.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-date-month-show"
+                    id="control-header-date-month-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-date-month-show">Month</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-month-display-number"
+                      id="control-header-date-month-display-number"
+                      name="control-header-date-month-display"
+                      tabindex="1"
+                      type="radio"
+                      value="number"
+                    />
+                    <label for="control-header-date-month-display-number"
+                      >As number</label
+                    >
+                  </div>
+                  <div class="form-indent">
+                    <div class="input-wrap">
+                      <input
+                        class="control-header-date-month-ordinal"
+                        id="control-header-date-month-ordinal"
+                        tabindex="1"
+                        type="checkbox"
+                      />
+                      <label for="control-header-date-month-ordinal"
+                        >Ordinal numbers</label
+                      >
+                      <p class="input-helper small muted">
+                        Display Month as 1st, 2nd, 3rd, 4th etc.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-month-display-word"
+                      id="control-header-date-month-display-word"
+                      name="control-header-date-month-display"
+                      tabindex="1"
+                      type="radio"
+                      value="word"
+                    />
+                    <label for="control-header-date-month-display-word"
+                      >As word</label
+                    >
+                  </div>
+                  <div class="form-indent">
+                    <label class="control-header-date-month-length-label"
+                      >Word length</label
+                    >
+                    <div class="input-wrap">
+                      <input
+                        class="control-header-date-month-length-long"
+                        id="control-header-date-month-length-long"
+                        name="control-header-date-month-length"
+                        tabindex="1"
+                        type="radio"
+                        value="long"
+                      />
+                      <label for="control-header-date-month-length-long"
+                        >Long</label
+                      >
+                    </div>
+                    <div class="input-wrap">
+                      <input
+                        class="control-header-date-month-length-short"
+                        id="control-header-date-month-length-short"
+                        name="control-header-date-month-length"
+                        tabindex="1"
+                        type="radio"
+                        value="short"
+                      />
+                      <label for="control-header-date-month-length-short"
+                        >Short</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-date-year-show"
+                    id="control-header-date-year-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-date-year-show">Year</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-year-display-number"
+                      id="control-header-date-year-display-number"
+                      name="control-header-date-year-display"
+                      tabindex="1"
+                      type="radio"
+                      value="number"
+                    />
+                    <label for="control-header-date-year-display-number"
+                      >As number</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-date-year-display-word"
+                      id="control-header-date-year-display-word"
+                      name="control-header-date-year-display"
+                      tabindex="1"
+                      type="radio"
+                      value="word"
+                    />
+                    <label for="control-header-date-year-display-word"
+                      >As word</label
+                    >
+                  </div>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-date-separator-show"
+                    id="control-header-date-separator-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-date-separator-show"
+                    >Separators</label
+                  >
+                </div>
+                <hr />
+                <label class="control-header-date-format-label">Format</label>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-date-format-datemonth"
+                    id="control-header-date-format-datemonth"
+                    name="control-header-date-format"
+                    tabindex="1"
+                    type="radio"
+                    value="datemonth"
+                  />
+                  <label for="control-header-date-format-datemonth"
+                    >Date / Month</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-date-format-monthdate"
+                    id="control-header-date-format-monthdate"
+                    name="control-header-date-format"
+                    tabindex="1"
+                    type="radio"
+                    value="monthdate"
+                  />
+                  <label for="control-header-date-format-monthdate"
+                    >Month / Date</label
+                  >
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <label for="control-header-date-size">Size</label>
+                  <input
+                    class="control-header-date-size"
+                    id="control-header-date-size"
+                    max="500"
+                    min="20"
+                    step="20"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                </div>
+                <div class="button-wrap">
+                  <button
+                    class="control-header-date-size-default button mb-0"
+                    tabindex="1"
+                  >
+                    Default date size
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Search</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-header-search-show"
+                    id="control-header-search-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-search-show">Show</label>
+                </div>
+                <div class="form-indent">
+                  <label class="control-header-search-style-label"
+                    >Search box width</label
+                  >
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-style-auto"
+                      id="control-header-search-style-auto"
+                      name="control-header-search-width"
+                      tabindex="1"
+                      type="radio"
+                      value="auto"
+                    />
+                    <label for="control-header-search-style-auto">Auto</label>
+                    <p class="input-helper small muted">
+                      Search box will grow to best fit available space.
+                    </p>
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-style-custom"
+                      id="control-header-search-style-custom"
+                      name="control-header-search-width"
+                      tabindex="1"
+                      type="radio"
+                      value="custom"
+                    />
+                    <label for="control-header-search-style-custom"
+                      >Custom</label
+                    >
+                    <p class="input-helper small muted">
+                      Define how wide the Search box should be inside the Header
+                      Area.
+                    </p>
+                  </div>
+                  <div class="form-indent">
+                    <div class="input-wrap">
+                      <label for="control-header-search-width">Width</label>
+                      <input
+                        class="control-header-search-width"
+                        id="control-header-search-width"
+                        max="100"
+                        min="10"
+                        tabindex="1"
+                        type="range"
+                        value="0"
+                      />
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-focus"
+                      id="control-header-search-focus"
+                      tabindex="1"
+                      type="checkbox"
+                    />
+                    <label for="control-header-search-focus"
+                      >Focus on load/refresh</label
+                    >
+                    <p class="input-helper small muted">
+                      May not work in Chrome.
+                    </p>
+                  </div>
+                  <hr />
+                  <label class="control-header-search-engine-label"
+                    >Search engine</label
+                  >
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-engine-google"
+                      id="control-header-search-engine-google"
+                      name="control-header-search-engine"
+                      tabindex="1"
+                      type="radio"
+                      value="google"
+                    />
+                    <label for="control-header-search-engine-google"
+                      >Google</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-engine-duckduckgo"
+                      id="control-header-search-engine-duckduckgo"
+                      name="control-header-search-engine"
+                      tabindex="1"
+                      type="radio"
+                      value="duckduckgo"
+                    />
+                    <label for="control-header-search-engine-duckduckgo"
+                      >Duck Duck Go</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-engine-youtube"
+                      id="control-header-search-engine-youtube"
+                      name="control-header-search-engine"
+                      tabindex="1"
+                      type="radio"
+                      value="youtube"
+                    />
+                    <label for="control-header-search-engine-youtube"
+                      >YouTube</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-engine-giphy"
+                      id="control-header-search-engine-giphy"
+                      name="control-header-search-engine"
+                      tabindex="1"
+                      type="radio"
+                      value="giphy"
+                    />
+                    <label for="control-header-search-engine-giphy"
+                      >Giphy</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-engine-custom"
+                      id="control-header-search-engine-custom"
+                      name="control-header-search-engine"
+                      tabindex="1"
+                      type="radio"
+                      value="custom"
+                    />
+                    <label for="control-header-search-engine-custom"
+                      >Custom</label
+                    >
+                  </div>
+                  <div class="form-indent">
+                    <div class="input-wrap">
+                      <label for="control-header-search-engine-custom-name"
+                        >Name</label
+                      >
+                      <input
+                        autocapitalize="off"
+                        autocomplete="off"
+                        class="control-header-search-engine-custom-name mb-0"
+                        id="control-header-search-engine-custom-name"
+                        placeholder="Search engine name"
+                        spellcheck="false"
+                        tabindex="1"
+                        type="text"
+                      />
+                    </div>
+                    <div class="input-wrap">
+                      <label for="control-header-search-engine-custom-url"
+                        >URL</label
+                      >
+                      <input
+                        autocapitalize="off"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class="control-header-search-engine-custom-url"
+                        id="control-header-search-engine-custom-url"
+                        placeholder="https://"
+                        spellcheck="false"
+                        tabindex="1"
+                        type="text"
+                      />
+                      <p class="input-helper small muted">
+                        Enter a web address with the search parameters, eg:
+                        "https://vimeo.com/search?q="
+                      </p>
+                      <p class="input-helper small muted mb-0">
+                        nightTab will add the search term entered into the
+                        Search input at the end of the above URL
+                      </p>
+                    </div>
+                  </div>
+                  <hr />
+                  <label class="control-header-search-text-align-label"
+                    >Align Text</label
+                  >
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-text-align-left"
+                      id="control-header-search-text-align-left"
+                      name="control-header-search-text-align"
+                      tabindex="1"
+                      type="radio"
+                      value="left"
+                    />
+                    <label for="control-header-search-text-align-left"
+                      >Left</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-text-align-center"
+                      id="control-header-search-text-align-center"
+                      name="control-header-search-text-align"
+                      tabindex="1"
+                      type="radio"
+                      value="center"
+                    />
+                    <label for="control-header-search-text-align-center"
+                      >Centre</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-search-text-align-right"
+                      id="control-header-search-text-align-right"
+                      name="control-header-search-text-align"
+                      tabindex="1"
+                      type="radio"
+                      value="right"
+                    />
+                    <label for="control-header-search-text-align-right"
+                      >Right</label
+                    >
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <label for="control-header-search-size">Size</label>
+                    <input
+                      class="control-header-search-size"
+                      id="control-header-search-size"
+                      max="500"
+                      min="20"
+                      step="20"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                    <p class="input-helper small muted">
+                      Only the Search box width control will change the Width of
+                      the Search box.
+                    </p>
+                  </div>
+                  <div class="button-wrap">
+                    <button
+                      class="control-header-search-size-default button mb-0"
+                      tabindex="1"
+                    >
+                      Default search size
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Buttons</h1>
+              </div>
+              <div class="menu-item-form">
+                <label class="control-header-button-style-label"
+                  >Button style</label
+                >
+                <div class="input-wrap">
+                  <input
+                    class="control-header-button-style-box"
+                    id="control-header-button-style-box"
+                    name="control-header-button-style"
+                    tabindex="1"
+                    type="radio"
+                    value="box"
+                  />
+                  <label for="control-header-button-style-box">Box</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-header-button-style-clear"
+                    id="control-header-button-style-clear"
+                    name="control-header-button-style"
+                    tabindex="1"
+                    type="radio"
+                    value="clear"
+                  />
+                  <label for="control-header-button-style-clear">Clear</label>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-button-edit-add-show"
+                    id="control-header-button-edit-add-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-button-edit-add-show"
+                    >Show Edit/Add</label
+                  >
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <input
+                    class="control-header-button-accent-show"
+                    id="control-header-button-accent-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-button-accent-show"
+                    >Show Accent</label
+                  >
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <label for="control-header-button-size">Size</label>
+                  <input
+                    class="control-header-button-size"
+                    id="control-header-button-size"
+                    max="500"
+                    min="20"
+                    step="20"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                </div>
+                <div class="button-wrap">
+                  <button
+                    class="control-header-button-size-default button mb-0"
+                    tabindex="1"
+                  >
+                    Default button size
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Border</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <label for="control-header-border-top">Top</label>
+                  <input
+                    class="control-header-border-top mb-0"
+                    id="control-header-border-top"
+                    max="60"
+                    min="0"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <label for="control-header-border-bottom">Bottom</label>
+                  <input
+                    class="control-header-border-bottom"
+                    id="control-header-border-bottom"
+                    max="60"
+                    min="0"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Shade</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-header-shade-show"
+                    id="control-header-shade-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-header-shade-show">Show</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-shade-style-always"
+                      id="control-header-shade-style-always"
+                      name="control-header-shade-style"
+                      tabindex="1"
+                      type="radio"
+                      value="always"
+                    />
+                    <label for="control-header-shade-style-always"
+                      >Always visible</label
+                    >
+                    <p class="input-helper small muted">
+                      Useful for when a Background Image is shown.
+                    </p>
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-shade-style-scroll"
+                      id="control-header-shade-style-scroll"
+                      name="control-header-shade-style"
+                      tabindex="1"
+                      type="radio"
+                      value="scroll"
+                    />
+                    <label for="control-header-shade-style-scroll"
+                      >Visible on scroll</label
+                    >
+                    <p class="input-helper small muted">
+                      The page will not scroll if Bookmarks are not shown.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <label for="control-header-shade-opacity">Opacity</label>
+                    <input
+                      class="control-header-shade-opacity"
+                      id="control-header-shade-opacity"
+                      max="100"
+                      min="0"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <input
+                      class="control-header-radius"
+                      id="control-header-radius"
+                      tabindex="1"
+                      type="checkbox"
+                    />
+                    <label for="control-header-radius">Corner radius</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="menu-content-area menu-content-area-bookmarks is-hidden">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Area</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <label for="control-link-area-width">Width</label>
+                  <input
+                    class="control-link-area-width"
+                    id="control-link-area-width"
+                    max="100"
+                    min="10"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                  <p class="input-helper small muted">
+                    Max width is defined by Layout Area Width.
+                  </p>
+                </div>
+                <div class="button-wrap">
+                  <button
+                    class="control-link-area-width-match button mb-0"
+                    tabindex="1"
+                  >
+                    Match Header Area
+                  </button>
+                </div>
+                <hr />
+                <label class="control-link-area-alignment-horizontal-label"
+                  >Horizontal Alignment</label
+                >
+                <div class="input-wrap">
+                  <input
+                    class="control-link-area-alignment-horizontal-left"
+                    id="control-link-area-alignment-horizontal-left"
+                    name="control-link-area-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="left"
+                  />
+                  <label for="control-link-area-alignment-horizontal-left"
+                    >Left</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-link-area-alignment-horizontal-center"
+                    id="control-link-area-alignment-horizontal-center"
+                    name="control-link-area-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="center"
+                  />
+                  <label for="control-link-area-alignment-horizontal-center"
+                    >Centre</label
+                  >
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-link-area-alignment-horizontal-right"
+                    id="control-link-area-alignment-horizontal-right"
+                    name="control-link-area-alignment-horizontal"
+                    tabindex="1"
+                    type="radio"
+                    value="right"
+                  />
+                  <label for="control-link-area-alignment-horizontal-right"
+                    >Right</label
+                  >
+                  <p class="input-helper small muted">
+                    Effects may not be visible if the Bookmark Area is full
+                    width.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Bookmarks</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-link-show"
+                    id="control-link-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-link-show">Show</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <label for="control-link-item-size">Tile Size</label>
+                    <input
+                      class="control-link-item-size"
+                      id="control-link-item-size"
+                      max="500"
+                      min="20"
+                      step="10"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <div class="button-wrap">
+                    <button
+                      class="control-link-item-size-default button mb-0"
+                      tabindex="1"
+                    >
+                      Default tile size
+                    </button>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-display-show"
+                      id="control-link-item-display-show"
+                      tabindex="1"
+                      type="checkbox"
+                    />
+                    <label for="control-link-item-display-show"
+                      >Letter/Icon</label
+                    >
+                  </div>
+                  <div class="form-indent">
+                    <div class="input-wrap">
+                      <label for="control-link-item-display-letter-size"
+                        >Letter size</label
+                      >
+                      <input
+                        class="control-link-item-display-letter-size"
+                        id="control-link-item-display-letter-size"
+                        max="3000"
+                        min="1"
+                        tabindex="1"
+                        type="range"
+                        value="0"
+                      />
+                    </div>
+                    <div class="button-wrap">
+                      <button
+                        class="control-link-item-display-letter-size-default button mb-0"
+                        tabindex="1"
+                      >
+                        Default letter size
+                      </button>
+                    </div>
+                    <hr />
+                    <div class="input-wrap">
+                      <label for="control-link-item-display-icon-size"
+                        >Icon size</label
+                      >
+                      <input
+                        class="control-link-item-display-icon-size"
+                        id="control-link-item-display-icon-size"
+                        max="3000"
+                        min="1"
+                        tabindex="1"
+                        type="range"
+                        value="0"
+                      />
+                    </div>
+                    <div class="button-wrap">
+                      <button
+                        class="control-link-item-display-icon-size-default button mb-0"
+                        tabindex="1"
+                      >
+                        Default icon size
+                      </button>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-name-show"
+                      id="control-link-item-name-show"
+                      tabindex="1"
+                      type="checkbox"
+                    />
+                    <label for="control-link-item-name-show">Name</label>
+                    <div class="form-indent">
+                      <div class="input-wrap">
+                        <label for="control-link-item-name-size"
+                          >Name size</label
+                        >
+                        <input
+                          class="control-link-item-name-size"
+                          id="control-link-item-name-size"
+                          max="1500"
+                          min="1"
+                          tabindex="1"
+                          type="range"
+                          value="0"
+                        />
+                      </div>
+                      <div class="button-wrap">
+                        <button
+                          class="control-link-item-name-size-default button mb-0"
+                          tabindex="1"
+                        >
+                          Default icon size
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-url-show"
+                      id="control-link-item-url-show"
+                      tabindex="1"
+                      type="checkbox"
+                    />
+                    <label for="control-link-item-url-show">URL on hover</label>
+                  </div>
+                  <div class="form-indent">
+                    <div class="input-wrap">
+                      <input
+                        class="control-link-item-url-style-dark"
+                        id="control-link-item-url-style-dark"
+                        name="control-link-item-url-style"
+                        tabindex="1"
+                        type="radio"
+                        value="dark"
+                      />
+                      <label for="control-link-item-url-style-dark"
+                        >Dark text</label
+                      >
+                    </div>
+                    <div class="input-wrap">
+                      <input
+                        class="control-link-item-url-style-light"
+                        id="control-link-item-url-style-light"
+                        name="control-link-item-url-style"
+                        tabindex="1"
+                        type="radio"
+                        value="light"
+                      />
+                      <label for="control-link-item-url-style-light"
+                        >Light text</label
+                      >
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-line-show"
+                      id="control-link-item-line-show"
+                      tabindex="1"
+                      type="checkbox"
+                    />
+                    <label for="control-link-item-line-show">Tile line</label>
+                  </div>
+                  <hr />
+                  <label
+                    class="control-link-item-display-alignment-horizontal-label"
+                    >Content Horizontal Alignment</label
+                  >
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-display-alignment-horizontal-left"
+                      id="control-link-item-display-alignment-horizontal-left"
+                      name="control-link-item-display-alignment-horizontal"
+                      tabindex="1"
+                      type="radio"
+                      value="left"
+                    />
+                    <label
+                      for="control-link-item-display-alignment-horizontal-left"
+                      >Left</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-display-alignment-horizontal-center"
+                      id="control-link-item-display-alignment-horizontal-center"
+                      name="control-link-item-display-alignment-horizontal"
+                      tabindex="1"
+                      type="radio"
+                      value="center"
+                    />
+                    <label
+                      for="control-link-item-display-alignment-horizontal-center"
+                      >Centre</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-display-alignment-horizontal-right"
+                      id="control-link-item-display-alignment-horizontal-right"
+                      name="control-link-item-display-alignment-horizontal"
+                      tabindex="1"
+                      type="radio"
+                      value="right"
+                    />
+                    <label
+                      for="control-link-item-display-alignment-horizontal-right"
+                      >Right</label
+                    >
+                  </div>
+                  <hr />
+                  <label
+                    class="control-link-item-display-alignment-vertical-label"
+                    >Content Vertical Alignment</label
+                  >
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-display-alignment-vertical-top"
+                      id="control-link-item-display-alignment-vertical-top"
+                      name="control-link-item-display-alignment-vertical"
+                      tabindex="1"
+                      type="radio"
+                      value="top"
+                    />
+                    <label
+                      for="control-link-item-display-alignment-vertical-top"
+                      >Top</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-display-alignment-vertical-center"
+                      id="control-link-item-display-alignment-vertical-center"
+                      name="control-link-item-display-alignment-vertical"
+                      tabindex="1"
+                      type="radio"
+                      value="center"
+                    />
+                    <label
+                      for="control-link-item-display-alignment-vertical-center"
+                      >Centre</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-link-item-display-alignment-vertical-bottom"
+                      id="control-link-item-display-alignment-vertical-bottom"
+                      name="control-link-item-display-alignment-vertical"
+                      tabindex="1"
+                      type="radio"
+                      value="bottom"
+                    />
+                    <label
+                      for="control-link-item-display-alignment-vertical-bottom"
+                      >Bottom</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Open</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-link-new-tab"
+                    id="control-link-new-tab"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-link-new-tab">In a new tab</label>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Style</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-link-style-block"
+                    id="control-link-style-block"
+                    name="control-link-style"
+                    tabindex="1"
+                    type="radio"
+                    value="block"
+                  />
+                  <label for="control-link-style-block">Block</label>
+                  <p class="input-helper small muted">
+                    Bookmark tiles more square shaped with content stacked
+                    vertically.
+                  </p>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-link-style-list"
+                    id="control-link-style-list"
+                    name="control-link-style"
+                    tabindex="1"
+                    type="radio"
+                    value="list"
+                  />
+                  <label for="control-link-style-list">List</label>
+                  <p class="input-helper small muted">
+                    Bookmark tiles more short and wide with content stacked
+                    horizontally.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Sort</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-link-sort-none"
+                    id="control-link-sort-none"
+                    name="control-link-sort"
+                    tabindex="1"
+                    type="radio"
+                    value="none"
+                  />
+                  <label for="control-link-sort-none">None (as added)</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-link-sort-letter"
+                    id="control-link-sort-letter"
+                    name="control-link-sort"
+                    tabindex="1"
+                    type="radio"
+                    value="letter"
+                  />
+                  <label for="control-link-sort-letter">Letter</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-link-sort-icon"
+                    id="control-link-sort-icon"
+                    name="control-link-sort"
+                    tabindex="1"
+                    type="radio"
+                    value="icon"
+                  />
+                  <label for="control-link-sort-icon">Icon</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-link-sort-name"
+                    id="control-link-sort-name"
+                    name="control-link-sort"
+                    tabindex="1"
+                    type="radio"
+                    value="name"
+                  />
+                  <label for="control-link-sort-name">Name</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-content-area menu-content-area-theme is-hidden">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Style</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-theme-style-dark"
+                    id="control-theme-style-dark"
+                    name="control-theme-style"
+                    tabindex="1"
+                    type="radio"
+                    value="dark"
+                  />
+                  <label for="control-theme-style-dark">Dark</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    class="control-theme-style-light"
+                    id="control-theme-style-light"
+                    name="control-theme-style"
+                    tabindex="1"
+                    type="radio"
+                    value="light"
+                  />
+                  <label for="control-theme-style-light">Light</label>
+                  <p class="input-helper small muted">
+                    Accent Colour and Background Image may need to be changed to
+                    best fit the Theme Style.
+                  </p>
+                </div>
+                <hr />
+                <div class="input-wrap">
+                  <label for="control-theme-radius">Radius</label>
+                  <input
+                    class="control-theme-radius"
+                    id="control-theme-radius"
+                    max="300"
+                    min="0"
+                    step="20"
+                    tabindex="1"
+                    type="range"
+                    value="0"
+                  />
+                </div>
+                <div class="button-wrap">
+                  <button
+                    class="control-theme-radius-default button mb-0"
+                    tabindex="1"
+                  >
+                    Default radius size
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Accent</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-theme-accent-random-active"
+                    id="control-theme-accent-random-active"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-theme-accent-random-active"
+                    >Random Accent colour on load/refresh</label
+                  >
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <input
+                      class="control-theme-accent-random-style-any"
+                      id="control-theme-accent-random-style-any"
+                      name="control-theme-accent-random-style"
+                      tabindex="1"
+                      type="radio"
+                      value="any"
+                    />
+                    <label for="control-theme-accent-random-style-any"
+                      >Any colour</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-theme-accent-random-style-light"
+                      id="control-theme-accent-random-style-light"
+                      name="control-theme-accent-random-style"
+                      tabindex="1"
+                      type="radio"
+                      value="light"
+                    />
+                    <label for="control-theme-accent-random-style-light"
+                      >Light colours</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-theme-accent-random-style-dark"
+                      id="control-theme-accent-random-style-dark"
+                      name="control-theme-accent-random-style"
+                      tabindex="1"
+                      type="radio"
+                      value="dark"
+                    />
+                    <label for="control-theme-accent-random-style-dark"
+                      >Dark colours</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-theme-accent-random-style-pastel"
+                      id="control-theme-accent-random-style-pastel"
+                      name="control-theme-accent-random-style"
+                      tabindex="1"
+                      type="radio"
+                      value="pastel"
+                    />
+                    <label for="control-theme-accent-random-style-pastel"
+                      >Pastel colours</label
+                    >
+                  </div>
+                  <div class="input-wrap">
+                    <input
+                      class="control-theme-accent-random-style-saturated"
+                      id="control-theme-accent-random-style-saturated"
+                      name="control-theme-accent-random-style"
+                      tabindex="1"
+                      type="radio"
+                      value="saturated"
+                    />
+                    <label for="control-theme-accent-random-style-saturated"
+                      >Saturated colours</label
+                    >
+                  </div>
+                  <div class="button-wrap">
+                    <button
+                      class="control-theme-accent-randomise button mb-0"
+                      tabindex="1"
+                    >
+                      Randomise now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-content-area menu-content-area-background is-hidden">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h1 class="menu-item-header-text">Image</h1>
+              </div>
+              <div class="menu-item-form">
+                <div class="input-wrap">
+                  <input
+                    class="control-background-image-show"
+                    id="control-background-image-show"
+                    tabindex="1"
+                    type="checkbox"
+                  />
+                  <label for="control-background-image-show">Show</label>
+                </div>
+                <div class="form-indent">
+                  <div class="input-wrap">
+                    <label for="control-background-image-url"
+                      >URL or path</label
+                    >
+                    <input
+                      autocapitalize="off"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="control-background-image-url"
+                      id="control-background-image-url"
+                      placeholder="http:// or ../path/to/file"
+                      spellcheck="false"
+                      tabindex="1"
+                      type="text"
+                    />
+                    <p class="input-helper small muted">
+                      Use a URL or file path to an image, consult the ReadME for
+                      a full directory of images. Local files use relative file
+                      paths and are numbered. eg:
+                    </p>
+                    <p class="input-helper small muted">
+                      <i>../background/1.jpeg</i>
+                    </p>
+                    <p class="input-helper small muted">
+                      <i>../background/2.jpeg</i>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="input-wrap">
+                    <label for="control-background-image-opacity"
+                      >Opacity</label
+                    >
+                    <input
+                      class="control-background-image-opacity"
+                      id="control-background-image-opacity"
+                      max="100"
+                      min="0"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <div class="input-wrap">
+                    <label for="control-background-image-grayscale"
+                      >Grayscale</label
+                    >
+                    <input
+                      class="control-background-image-grayscale"
+                      id="control-background-image-grayscale"
+                      max="100"
+                      min="0"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <div class="input-wrap">
+                    <label for="control-background-image-blur">Blur</label>
+                    <input
+                      class="control-background-image-blur"
+                      id="control-background-image-blur"
+                      max="100"
+                      min="0"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <div class="input-wrap">
+                    <label for="control-background-image-accent"
+                      >Accent overlay</label
+                    >
+                    <input
+                      class="control-background-image-accent"
+                      id="control-background-image-accent"
+                      max="90"
+                      min="0"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                  <div class="input-wrap">
+                    <label for="control-background-image-scale">Size</label>
+                    <input
+                      class="control-background-image-scale"
+                      id="control-background-image-scale"
+                      max="300"
+                      min="100"
+                      tabindex="1"
+                      type="range"
+                      value="0"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+  </body>
 
-    </div>
-</section>
-
-</body>
-
-<script src="js/helper.js"></script>
-<script src="js/data.js"></script>
-<script src="js/fontawesome.js"></script>
-<script src="js/update.js"></script>
-<script src="js/state.js"></script>
-<script src="js/bookmarks.js"></script>
-<script src="js/control.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/header.js"></script>
-<script src="js/modal.js"></script>
-<script src="js/tip.js"></script>
-<script src="js/shade.js"></script>
-<script src="js/accent.js"></script>
-<script src="js/theme.js"></script>
-<script src="js/date.js"></script>
-<script src="js/greeting.js"></script>
-<script src="js/transitional.js"></script>
-<script src="js/clock.js"></script>
-<script src="js/search.js"></script>
-<script src="js/link.js"></script>
-<script src="js/version.js"></script>
-<script src="js/keyboard.js"></script>
-<script src="js/background.js"></script>
-<script src="js/title.js"></script>
-<script src="js/layout.js"></script>
-<script src="js/auto-suggest.js"></script>
-<script src="js/page.js"></script>
-<script src="js/edge.js"></script>
-<script src="js/init.js"></script>
-
+  <script src="js/helper.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/fontawesome.js"></script>
+  <script src="js/update.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/bookmarks.js"></script>
+  <script src="js/control.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/tip.js"></script>
+  <script src="js/shade.js"></script>
+  <script src="js/accent.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/date.js"></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/transitional.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/link.js"></script>
+  <script src="js/version.js"></script>
+  <script src="js/keyboard.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/title.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/auto-suggest.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/edge.js"></script>
+  <script src="js/init.js"></script>
 </html>

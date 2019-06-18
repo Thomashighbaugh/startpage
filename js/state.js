@@ -196,17 +196,17 @@ var state = (function() {
       style: "dark",
       radius: 0.2
     },
-    background: {
-      image: {
-        show: false,
-        url: "../background/gray-steps.jpg",
-        blur: 0,
-        scale: 1,
-        opacity: 1,
-        grayscale: 0,
-        accent: 0
-      }
-    },
+    // background: {
+    //   image: {
+    //     show: false,
+    //     url: "../background/gray-steps.jpg",
+    //     blur: 0,
+    //     scale: 1,
+    //     opacity: 1,
+    //     grayscale: 0,
+    //     accent: 0
+    //   }
+    // },
     edge: false,
     search: false,
     menu: false,

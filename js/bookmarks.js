@@ -22,7 +22,7 @@ var bookmarks = (function() {
     },
     {
       display: "icon",
-      letter: "N",
+      letter: "GL",
       icon: {
         name: "gitlab",
         prefix: "fab",

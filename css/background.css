@@ -15,7 +15,7 @@
 }
 
 .background-image {
-  background-image: var(--background-image);
+  // background-image: var(--background-image);
   /* background-image: url(https://source.unsplash.com/random/1920x1080/?night); */
   background-attachment: fixed;
   background-size: cover;

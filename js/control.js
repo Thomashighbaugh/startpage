@@ -2387,68 +2387,6 @@ var control = (function() {
         accent.render();
       }
     },
-    {
-      element: helper.e(".control-background-image-show"),
-      path: "background.image.show",
-      type: "checkbox",
-      func: function() {
-        render();
-        dependents();
-        background.render();
-      }
-    },
-    {
-      element: helper.e(".control-background-image-url"),
-      path: "background.image.url",
-      type: "text",
-      func: function() {
-        background.render();
-      }
-    },
-    {
-      element: helper.e(".control-background-image-opacity"),
-      path: "background.image.opacity",
-      type: "range",
-      valueMod: ["reverse", "float"],
-      func: function() {
-        background.render();
-      }
-    },
-    {
-      element: helper.e(".control-background-image-grayscale"),
-      path: "background.image.grayscale",
-      type: "range",
-      valueMod: ["float"],
-      func: function() {
-        background.render();
-      }
-    },
-    {
-      element: helper.e(".control-background-image-blur"),
-      path: "background.image.blur",
-      type: "range",
-      func: function() {
-        background.render();
-      }
-    },
-    {
-      element: helper.e(".control-background-image-accent"),
-      path: "background.image.accent",
-      type: "range",
-      valueMod: ["float"],
-      func: function() {
-        background.render();
-      }
-    },
-    {
-      element: helper.e(".control-background-image-scale"),
-      path: "background.image.scale",
-      type: "range",
-      valueMod: ["float"],
-      func: function() {
-        background.render();
-      }
-    }
   ];
 
   var _setValue = function(path, value) {
@@ -2805,19 +2743,19 @@ var control = (function() {
       helper.removeClass(html, "is-theme-style-light");
       helper.addClass(html, "is-theme-style-" + state.get().theme.style);
     };
-    var _background = function() {
-      if (state.get().background.image.show) {
-        helper.addClass(html, "is-background-image-show");
-      } else {
-        helper.removeClass(html, "is-background-image-show");
-      }
-    };
+    // var _background = function() {
+    //   if (state.get().background.image.show) {
+    //     helper.addClass(html, "is-background-image-show");
+    //   } else {
+    //     helper.removeClass(html, "is-background-image-show");
+    //   }
+    // };
     _menu();
     _header();
     _link();
     _layout();
     _theme();
-    _background();
+    // _background();
   };
 
   var dependents = function() {
@@ -3469,64 +3407,10 @@ var control = (function() {
         helper.e(".control-theme-accent-randomise").disabled = true;
       }
     };
-    var _background = function() {
-      if (state.get().background.image.show) {
-        helper
-          .e("[for=control-background-image-url]")
-          .removeAttribute("disabled");
-        helper.e(".control-background-image-url").disabled = false;
-        helper
-          .e("[for=control-background-image-opacity]")
-          .removeAttribute("disabled");
-        helper.e(".control-background-image-opacity").disabled = false;
-        helper
-          .e("[for=control-background-image-blur]")
-          .removeAttribute("disabled");
-        helper.e(".control-background-image-blur").disabled = false;
-        helper
-          .e("[for=control-background-image-grayscale]")
-          .removeAttribute("disabled");
-        helper.e(".control-background-image-grayscale").disabled = false;
-        helper
-          .e("[for=control-background-image-accent]")
-          .removeAttribute("disabled");
-        helper.e(".control-background-image-accent").disabled = false;
-        helper
-          .e("[for=control-background-image-scale]")
-          .removeAttribute("disabled");
-        helper.e(".control-background-image-scale").disabled = false;
-      } else {
-        helper
-          .e("[for=control-background-image-url]")
-          .setAttribute("disabled", "");
-        helper.e(".control-background-image-url").disabled = true;
-        helper
-          .e("[for=control-background-image-opacity]")
-          .setAttribute("disabled", "");
-        helper.e(".control-background-image-opacity").disabled = true;
-        helper
-          .e("[for=control-background-image-blur]")
-          .setAttribute("disabled", "");
-        helper.e(".control-background-image-blur").disabled = true;
-        helper
-          .e("[for=control-background-image-grayscale]")
-          .setAttribute("disabled", "");
-        helper.e(".control-background-image-grayscale").disabled = true;
-        helper
-          .e("[for=control-background-image-accent]")
-          .setAttribute("disabled", "");
-        helper.e(".control-background-image-accent").disabled = true;
-        helper
-          .e("[for=control-background-image-scale]")
-          .setAttribute("disabled", "");
-        helper.e(".control-background-image-scale").disabled = true;
-      }
-    };
     _header();
     _edit();
     _link();
     _theme();
-    _background();
   };
 
   var update = function() {

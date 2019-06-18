@@ -14,7 +14,7 @@ clock.init();
 keyboard.init();
 tip.init();
 layout.init();
-background.init();
+//background.init();
 search.init();
 title.init();
 header.init();

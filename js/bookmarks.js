@@ -8,7 +8,7 @@ var bookmarks = (function() {
               prefix: "fab",
               label: "OpenSUSE Software"
           },
-          name: "OpenSUSE Software",
+          name: "OpenSUSE",
           url: "https://software.opensuse.org/explore",
           accent: {
               override: true,

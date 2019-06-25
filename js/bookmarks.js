@@ -1,5 +1,25 @@
 var bookmarks = (function() {
   var all = [
+      {
+          display: "icon",
+          letter: "SUSE",
+          icon: {
+              name: "suse",
+              prefix: "fab",
+              label: "OpenSUSE Software"
+          },
+          name: "OpenSUSE Software",
+          url: "https://software.opensuse.org/explore",
+          accent: {
+              override: true,
+              color: {
+                  r: 115,
+                  g: 186,
+                  b: 37
+              }
+          },
+          timeStamp: 1560635049
+      },
     {
       display: "icon",
       letter: "DEV",
@@ -31,11 +51,11 @@ var bookmarks = (function() {
       name: "GitLab",
       url: "https://gitlab.com/users/sign_in",
       accent: {
-        override: true,
+        override: false,
         color: {
-          r: 255,
-          g: 147,
-          b: 29
+          r: null,
+          g: null,
+          b: null
         }
       },
       timeStamp: 1560635049
@@ -240,26 +260,7 @@ var bookmarks = (function() {
       },
       timeStamp: 1560635049
     },
-    {
-      display: "icon",
-      letter: "SUSE",
-      icon: {
-        name: "suse",
-        prefix: "fab",
-        label: "OpenSUSE Software"
-      },
-      name: "OpenSUSE Software",
-      url: "https://software.opensuse.org/explore",
-      accent: {
-        override: true,
-        color: {
-          r: 115,
-          g: 186,
-          b: 37
-        }
-      },
-      timeStamp: 1560635049
-    },
+
   ];
 
   var get = function(data) {

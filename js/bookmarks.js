@@ -239,7 +239,27 @@ var bookmarks = (function() {
         }
       },
       timeStamp: 1560635049
-    }
+    },
+    {
+      display: "icon",
+      letter: "SUSE",
+      icon: {
+        name: "suse",
+        prefix: "fab",
+        label: "OpenSUSE Software"
+      },
+      name: "OpenSUSE Software",
+      url: "https://software.opensuse.org/explore",
+      accent: {
+        override: true,
+        color: {
+          r: 115,
+          g: 186,
+          b: 37
+        }
+      },
+      timeStamp: 1560635049
+    },
   ];
 
   var get = function(data) {

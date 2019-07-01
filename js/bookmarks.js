@@ -2,20 +2,20 @@ var bookmarks = (function() {
   var all = [
       {
           display: "icon",
-          letter: "SUSE",
+          letter: "DEV",
           icon: {
-              name: "suse",
+              name: "dev",
               prefix: "fab",
-              label: "OpenSUSE Software"
+              label: "Dev.to"
           },
-          name: "OpenSUSE",
-          url: "https://software.opensuse.org/explore",
+          name: "Dev.to",
+          url: "https://dev.to/",
           accent: {
-              override: true,
+              override: false,
               color: {
-                  r: 115,
-                  g: 186,
-                  b: 37
+                  r: null,
+                  g: null,
+                  b: null
               }
           },
           timeStamp: 1560635049

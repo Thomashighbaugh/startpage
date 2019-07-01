@@ -252,9 +252,9 @@ var bookmarks = (function() {
       accent: {
         override: false,
         color: {
-          r: null,
-          g: null,
-          b: null
+          r: 0,
+          g: 105,
+          b: 255
         }
       },
       timeStamp: 1560635049

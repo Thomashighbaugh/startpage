@@ -22,6 +22,45 @@ var bookmarks = (function() {
       },
     {
       display: "icon",
+      letter: "ODIN",
+      icon: {
+        name: "gavel",
+        prefix: "fas",
+        label: "Odin Project"
+      },
+      name: "Odin Project",
+      url: "https://www.theodinproject.com/courses",
+      accent: {
+        override: false,
+        color: {
+          r: null,
+          g: null,
+          b: null
+        }
+      },
+      timeStamp: 1560635049
+    },    {
+      display: "icon",
+      letter: "FIGMA",
+      icon: {
+        name: "figma",
+        prefix: "fab",
+        label: "Figma"
+      },
+      name: "Figma",
+      url: "https://www.figma.com/",
+      accent: {
+        override: false,
+        color: {
+          r: null,
+          g: null,
+          b: null
+        }
+      },
+      timeStamp: 1560635049
+    },
+    {
+      display: "icon",
       letter: "DEV",
       icon: {
         name: "code",

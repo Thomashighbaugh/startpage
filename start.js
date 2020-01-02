@@ -17,10 +17,10 @@ var search=[ // Search engines
     ["!y",  "https://www.youtube.com/results?search_query="],       // YouTube
 ];
 var menu=[ // Menu titles
-    "News",                                                         // mnu_1
-    "Docs",                                                         // mnu_2
-    "InfoSec",                                                      // mnu_3
-    "Wargames",                                                     // mnu_4
+    "Linux",                                                         // mnu_1
+    "Education",                                                         // mnu_2
+    "Security",                                                      // mnu_3
+    "Development",                                                     // mnu_4
     "Others",                                                       // mnu_5
 ];
 var showFavicon = true;                                             // Enable/Disable Link Favicons (img)
@@ -29,16 +29,21 @@ var showPreview = true;                                             // Enable/Di
 // Format: ["Name", "URL", "Custom Favicon"],
 var links=[
     // News -           mnu_1
-    ["Arch Linux",                      "http://archlinux.org",                 ""],
-    ["TorrentFreak",                    "http://torrentfreak.com",              ""],
-    ["Blackarch",                       "https://blackarch.org",                ""],
+    ["Arch Linux Wiki",                 "http://wiki.archlinux.org",            ""],
+    ["Arch User Repository Linux",      "http://aur.archlinux.org",             ""],
+    ["Unixporn",                        "http://reddit.com/r/unixporn",         ""],
+    ["Wallhaven",                       "http://alpha.wallhaven.cc",            ""],
+
+
     ["", "", ""],
     // Docs -          mnu_2
     ["BashFAQ",                         "http://mywiki.wooledge.org/BashFAQ",   ""],
     ["C FAQ",                           "http://c-faq.com/",                    ""],
-    ["HOWTO",                           "http://en.tldp.org/HOWTO/",            ""],
+    ["FreeCodeAcademy",                           "https://www.freecodecamp.org/",            ""],
+    ["Udemy",                           "https://www.udemy.com/",            ""],
     ["Python",                          "https://docs.python.org/",             ""],
     ["PerlFAQ",                         "http://www.perl.com/perl/faq",         ""],
+    ["Rust Book",                         "https://doc.rust-lang.org/book/index.html",         ""],
     ["", "", ""],
     // InfoSec -  mnu_3
     ["Rapid7",                          "https://community.rapid7.com/",        ""],
@@ -62,22 +67,15 @@ var links=[
     ["", "", ""],
 
     // Wargames -  mnu_4
+    ["Bitbucket",                       "https://bitbucket.org",       ""],
+    ["Github",                          "https://github.com/",          ""],
+    ["Gitlab",                          "https://gitlab.com/",          ""],
 
 
     ["", "", ""],
     // Other -          mnu_5
-    ["Bitbucket",                       "https://bitbucket.org/mohabaks",       ""],
-    ["Github",                          "https://github.com/mohabaks",          ""],
-    ["Twitter",                          "https://twitter.com/mohabaks", ""],
-    ["Dropbox",                         "https://www.dropbox.com",              "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico"],
+   ["Dropbox",                         "https://www.dropbox.com",              "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico"],
     ["PayPal",                          "http://www.paypal.com/",               ""],
-    ["Userstyles",                      "http://userstyles.org/",               ""],
-    ["Wallhaven",                       "http://alpha.wallhaven.cc",            ""],
-    ["/g/ - Technology",                "https://boards.4chan.org/g/catalog",   "http://s.4cdn.org/image/favicon-ws.ico"],
-    ["DeviantArt",                      "http://deviantart.com/",               ""],
-    ["Imgur",                           "https://imgur.com/",                   ""],
-    ["Netflix",                         "http://netflix.com",                   ""],
-    ["Unixporn",                        "http://reddit.com/r/unixporn",         ""],
     ["YouTube",                         "http://youtube.com",                   ""],
 ];
 var i,ss="";

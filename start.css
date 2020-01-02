@@ -7,7 +7,7 @@ body {
   height: 100%;
   font-family: "BigBlue_Terminal_437TT Nerd Font Mono", monospace;
   font-size: 10pt;
-  background: #17161B;
+  background: #17161b;
 }
 
 *:focus {
@@ -23,7 +23,7 @@ li {
 
 textarea {
   background: transparent;
-  color: #DEE6E7;
+  color: #dee6e7;
 }
 
 a,
@@ -81,8 +81,8 @@ a:active {
 }
 #q {
   width: calc((200px * 4) - (8px * 2));
-  background: #24262A;
-  color: #8265FF;
+  background: #24262a;
+  color: #8265ff;
   border: 0;
   border-radius: 1px;
   font-family: "BigBlue_Terminal_437TT Nerd Font Mono", monospace;
@@ -92,7 +92,7 @@ a:active {
 }
 #more {
   background: transparent;
-  color: #8265FF;
+  color: #8265ff;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -108,7 +108,7 @@ a:active {
   height: 32px;
   font-size: 18pt;
   background: transparent;
-  color: #DEE6E7;
+  color: #dee6e7;
   cursor: pointer;
   transition: 0.2s ease-out;
 }
@@ -126,12 +126,12 @@ a:active {
   text-align: left;
   border-radius: 8px;
   opacity: 0;
-  background: #24262A;
+  background: #24262a;
   color: #939597;
   transition: 0.2s ease-out;
 }
 #more:hover #plus {
-  background: #24262A;
+  background: #24262a;
 }
 #more:hover #help {
   visibility: visible;
@@ -176,7 +176,7 @@ a:active {
   transition: 0.2s ease-out;
 }
 #menu ul li:hover {
-  background: #24262A;
+  background: #24262a;
   color: #839496;
 }
 #menu ul li a {
@@ -196,7 +196,7 @@ a:active {
   bottom: 100%;
   left: 0;
   z-index: 11;
-  background: #24262A;
+  background: #24262a;
   border-radius: 1px;
   transition: 0.2s ease-out;
 }
@@ -208,7 +208,7 @@ a:active {
   height: calc(32px * 3); /* rows */
 }
 #menu ul ul li {
-  background: #24262A;
+  background: #24262a;
   border-radius: 1px;
   height: 32px;
   text-align: left;
@@ -216,19 +216,19 @@ a:active {
 }
 /* Menu Colors */
 #menu ul #mnu_1 li:hover {
-  background: #F02E6E;
+  background: #f02e6e;
 }
 #menu ul #mnu_2 li:hover {
-  background: #47BAE8;
+  background: #47bae8;
 }
 #menu ul #mnu_3 li:hover {
-  background: #C792EA;
+  background: #c792ea;
 }
 #menu ul #mnu_4 li:hover {
-  background: #1DA0E2;
+  background: #1da0e2;
 }
 #menu ul #mnu_5 li:hover {
-  background: #B265FF;
+  background: #b265ff;
 }
 #menu img {
   position: relative;

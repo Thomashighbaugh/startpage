@@ -82,7 +82,7 @@ a:active {
 #q {
   width: calc((200px * 4) - (8px * 2));
   background: #24262a;
-  color: #8265ff;
+  color: #44ddff;
   border: 0;
   border-radius: 1px;
   font-family: "BigBlue_Terminal_437TT Nerd Font Mono", monospace;
@@ -92,7 +92,7 @@ a:active {
 }
 #more {
   background: transparent;
-  color: #8265ff;
+  color: #44ddff;
   display: block;
   text-align: center;
   margin: 0 auto;

@@ -25,7 +25,7 @@ var menu = [
   "Linux", // mnu_1
   "Education", // mnu_2
   "Security", // mnu_3
-  "VCS", // mnu_4
+  "Development", // mnu_4
   "Others" // mnu_5
 ];
 var showFavicon = true; // Enable/Disable Link Favicons (img)
@@ -38,16 +38,27 @@ var links = [
   ["Arch User Repository Linux", "http://aur.archlinux.org", ""],
   ["Unixporn", "http://reddit.com/r/unixporn", ""],
   ["Wallhaven", "http://alpha.wallhaven.cc", ""],
+  ["Linux Tracker", "https://linuxtracker.org/", ""],
+  ["Bitnami", "https//bitnami.com", ""],
+  ["Electron Apps", "hhtps://electronjs.org/apps", ""],
+  ["AppImage Hub", "https://appimage.github.io/", ""],
+  ["Pling", "https://pling.com", ""],
 
   ["", "", ""],
   // Education -          mnu_2
   ["BashFAQ", "http://mywiki.wooledge.org/BashFAQ", ""],
   ["C FAQ", "http://c-faq.com/", ""],
-  ["FreeCodeAcademy", "https://www.freecodecamp.org/", ""],
+  ["FreeCodeCamp", "https://www.freecodecamp.org/", ""],
   ["Udemy", "https://www.udemy.com/", ""],
   ["Python", "https://docs.python.org/", ""],
   ["PerlFAQ", "http://www.perl.com/perl/faq", ""],
   ["Rust Book", "https://doc.rust-lang.org/book/index.html", ""],
+  ["Learn Docker", "https://hackr.io/tutorials/learn-docker", ""],
+  ["The Odin Project", "https://www.theodinproject.com/courses", ""],
+  ["Scrimba", "https://scrimba.com", ""],
+  ["Ops School", "http://www.opsschool.org", ""],
+  ["Dev Hints", "https://devhints.io", ""],
+
   ["", "", ""],
   // Security -  mnu_3
   ["Rapid7", "https://community.rapid7.com/", ""],
@@ -70,20 +81,36 @@ var links = [
   ["Pwnable", "http://pwnable.kr/", ""],
   ["", "", ""],
 
-  // VCS -  mnu_4
+  // Development  -  mnu_4
   ["Bitbucket", "https://bitbucket.org", ""],
   ["Github", "https://github.com/", ""],
   ["Gitlab", "https://gitlab.com/", ""],
-
-  ["", "", ""],
-  // Other -          mnu_5
+  ["Probot", "https://probot.github.io/apps/", ""],
   [
     "Dropbox",
     "https://www.dropbox.com",
     "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico"
   ],
   ["PCloud", "http://www.pcloud.com/", ""],
-  ["YouTube", "http://youtube.com", ""]
+  ["Bit", "https://bit.dev", ""],
+  ["Code My UI", "https://codemyui.com", ""],
+  ["Carbon", "https://carbon.now.sh", ""],
+  ["Sassimate Animations", "https://georgeevans1995.github.io/Sassimate/", ""],
+  ["CodePen", "https://codepen.io", ""],
+  ["CodeSandbox", "https://codesandbox.io", ""],
+  ["JSFiddle", "https://jsfiddle.net", ""],
+  ["SASS Meister", "https://sassmeister.com", ""],
+  ["", "", ""],
+  // Other -          mnu_5
+
+  ["YouTube", "http://youtube.com", ""],
+  ["TinyThoughts", "https://tinythoughts.me/home", ""],
+  [
+    "Books",
+    "http://gen.lib.rus.ec/search.php?req=topicid85&open=0&column=topic",
+    ""
+  ],
+  ["Get Awesomeness Lists", "https://getawesomeness.herokuapp.com/", ""]
 ];
 var i,
   ss = "";

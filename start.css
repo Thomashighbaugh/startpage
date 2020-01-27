@@ -184,7 +184,6 @@ a:active {
   white-space: nowrap;
   padding: 0 10px;
   color: #cccccc;
-
 }
 #menu ul ul {
   display: flex;
@@ -220,7 +219,7 @@ a:active {
 }
 /* Menu Colors */
 #menu ul #mnu_1 li:hover {
-  background:#FC61F7;
+  background: #fc61f7;
 }
 #menu ul #mnu_2 li:hover {
   background: #6ab0f3;

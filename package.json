@@ -1,21 +1,10 @@
 {
-  "name": "splash-page",
+  "name": "startpage",
   "version": "1.0.0",
-  "description": "",
-  "main": "start.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thomashighbaugh/splash-page.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Thomashighbaugh/splash-page/issues"
-  },
-  "homepage": "https://github.com/Thomashighbaugh/splash-page#readme",
+  "main": "index.js",
+  "repository": "https://github.com/Thomashighbaugh/startpage",
+  "author": "Thomas Leon Highbaugh <thighbaugh@zoho.com>",
+  "license": "MIT",
   "dependencies": {
     "prettier": "^1.19.1"
   }

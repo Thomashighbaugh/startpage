@@ -16,11 +16,11 @@
       src="start.js"
     ></script>
   </head>
-  <body onload="javascript:init();">
+  <body onload="init();">
     <iframe
       id="preview"
       src="about:blank"
-      onload="javascript:preview(2,0)"
+      onload="preview(2,0)"
       frameborder="0"
     ></iframe>
     <div id="overlay"></div>
@@ -36,7 +36,7 @@
           id="q"
           value=""
           placeholder="Search..."
-          onkeypress="javascript:handleQuery(event,this.value);"
+          onkeypress="handleQuery(event,this.value);"
           onfocus="this.value=this.value"
         />
         <br /><br />
@@ -45,7 +45,7 @@
             type="button"
             id="plus"
             value="+"
-            onclick="javascript:toggleNote();"
+            onclick="toggleNote();"
           />
           <br />
           <div id="help"></div>

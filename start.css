@@ -5,9 +5,9 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  font-family: "Pica Hole - ABS", monospace;
+  font-family: "Alpha Echo", monospace;
   font-size: 1rem;
-  background: #17161b;
+  background: #2f3243;
 }
 
 *:focus {

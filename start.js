@@ -1,4 +1,4 @@
-var $ = function(id) {
+var $ = function (id) {
   return document.getElementById(id);
 };
 var help =
@@ -18,7 +18,7 @@ var search = [
   ["!m", "http://www.imdb.com/find?q="], // IMDb
   ["!u", "http://www.urbandictionary.com/define.php?term="], // Urban Dictionary
   ["!w", "http://en.wikipedia.org/w/index.php?search="], // Wikipedia
-  ["!y", "https://www.youtube.com/results?search_query="] // YouTube
+  ["!y", "https://www.youtube.com/results?search_query="], // YouTube
 ];
 var menu = [
   // Menu titles
@@ -26,7 +26,7 @@ var menu = [
   "Education", // mnu_2
   "Security", // mnu_3
   "Development", // mnu_4
-  "Others" // mnu_5
+  "Cloud", // mnu_5
 ];
 var showFavicon = true; // Enable/Disable Link Favicons (img)
 var showPreview = true; // Enable/Disable Link Hover Preview (iframe)
@@ -38,7 +38,6 @@ var links = [
   ["Arch User Repository Linux", "http://aur.archlinux.org", ""],
   ["Unixporn", "http://reddit.com/r/unixporn", ""],
   ["Wallhaven", "http://alpha.wallhaven.cc", ""],
-  ["Linux Tracker", "https://linuxtracker.org/", ""],
   ["Bitnami", "https//bitnami.com", ""],
   ["Electron Apps", "hhtps://electronjs.org/apps", ""],
   ["AppImage Hub", "https://appimage.github.io/", ""],
@@ -86,12 +85,6 @@ var links = [
   ["Github", "https://github.com/", ""],
   ["Gitlab", "https://gitlab.com/", ""],
   ["Probot", "https://probot.github.io/apps/", ""],
-  [
-    "Dropbox",
-    "https://www.dropbox.com",
-    "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico"
-  ],
-  ["PCloud", "http://www.pcloud.com/", ""],
   ["Bit", "https://bit.dev", ""],
   ["Code My UI", "https://codemyui.com", ""],
   ["Carbon", "https://carbon.now.sh", ""],
@@ -100,17 +93,28 @@ var links = [
   ["CodeSandbox", "https://codesandbox.io", ""],
   ["JSFiddle", "https://jsfiddle.net", ""],
   ["SASS Meister", "https://sassmeister.com", ""],
-  ["", "", ""],
-  // Other -          mnu_5
+  ["Get Awesomeness Lists", "https://getawesomeness.herokuapp.com/", ""][
+    ("", "", "")
+  ],
+  // Cloud -          mnu_5
 
-  ["YouTube", "http://youtube.com", ""],
-  ["TinyThoughts", "https://tinythoughts.me/home", ""],
+  [
+    "AWS Control Panel",
+    "https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0&code_challenge=8TpPxW0x7nv1ehNdxCbEPgAv-5IHVDxZ8CvDcTtLs_Q&code_challenge_method=SHA-256",
+    "",
+  ],
+  ["Digital Ocean Sign On", "https://cloud.digitalocean.com/login", ""],
+  [
+    "Dropbox",
+    "https://www.dropbox.com",
+    "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico",
+  ],
   [
     "Books",
     "http://gen.lib.rus.ec/search.php?req=topicid85&open=0&column=topic",
-    ""
+    "",
   ],
-  ["Get Awesomeness Lists", "https://getawesomeness.herokuapp.com/", ""]
+  ["PCloud", "http://www.pcloud.com/", ""],
 ];
 var i,
   ss = "";
@@ -155,7 +159,7 @@ function build() {
           '" src="' +
           favicon +
           '"' +
-          " onload=\"javascript:this.style.visibility='inherit';\" /> ";
+          " onload=\"this.style.visibility='inherit';\" /> ";
       }
       if (showPreview) {
         prev =
@@ -212,7 +216,7 @@ function toggleNote() {
       "<textarea id='note' spellcheck='false' placeholder='Store temporary note...'></textarea>";
     if (localStorage.getItem("note") != null)
       $("note").value = localStorage.getItem("note");
-    $("note").addEventListener("change", function() {
+    $("note").addEventListener("change", function () {
       localStorage.setItem("note", $("note").value);
     });
     $("plus").value = "-";
@@ -229,12 +233,12 @@ function preview(c, x) {
   switch (c) {
     case 0: // mouseout
       $("overlay").style.opacity = 1;
-      pT = setTimeout(function() {
+      pT = setTimeout(function () {
         $("preview").src = "about:blank";
       }, 500);
       break;
     case 1: // mouseover
-      pT = setTimeout(function() {
+      pT = setTimeout(function () {
         $("preview").src = x;
       }, 100);
       break;

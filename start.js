@@ -1,4 +1,4 @@
-var $ = function (id) {
+var $ = function(id) {
   return document.getElementById(id);
 };
 var help =
@@ -18,7 +18,7 @@ var search = [
   ["!m", "http://www.imdb.com/find?q="], // IMDb
   ["!u", "http://www.urbandictionary.com/define.php?term="], // Urban Dictionary
   ["!w", "http://en.wikipedia.org/w/index.php?search="], // Wikipedia
-  ["!y", "https://www.youtube.com/results?search_query="], // YouTube
+  ["!y", "https://www.youtube.com/results?search_query="] // YouTube
 ];
 var menu = [
   // Menu titles
@@ -26,7 +26,7 @@ var menu = [
   "Education", // mnu_2
   "Security", // mnu_3
   "Development", // mnu_4
-  "Cloud", // mnu_5
+  "Cloud" // mnu_5
 ];
 var showFavicon = true; // Enable/Disable Link Favicons (img)
 var showPreview = true; // Enable/Disable Link Hover Preview (iframe)
@@ -101,20 +101,20 @@ var links = [
   [
     "AWS Control Panel",
     "https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0&code_challenge=8TpPxW0x7nv1ehNdxCbEPgAv-5IHVDxZ8CvDcTtLs_Q&code_challenge_method=SHA-256",
-    "",
+    ""
   ],
   ["Digital Ocean Sign On", "https://cloud.digitalocean.com/login", ""],
   [
     "Dropbox",
     "https://www.dropbox.com",
-    "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico",
+    "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico"
   ],
   [
     "Books",
     "http://gen.lib.rus.ec/search.php?req=topicid85&open=0&column=topic",
-    "",
+    ""
   ],
-  ["PCloud", "http://www.pcloud.com/", ""],
+  ["PCloud", "http://www.pcloud.com/", ""]
 ];
 var i,
   ss = "";
@@ -216,7 +216,7 @@ function toggleNote() {
       "<textarea id='note' spellcheck='false' placeholder='Store temporary note...'></textarea>";
     if (localStorage.getItem("note") != null)
       $("note").value = localStorage.getItem("note");
-    $("note").addEventListener("change", function () {
+    $("note").addEventListener("change", function() {
       localStorage.setItem("note", $("note").value);
     });
     $("plus").value = "-";
@@ -233,12 +233,12 @@ function preview(c, x) {
   switch (c) {
     case 0: // mouseout
       $("overlay").style.opacity = 1;
-      pT = setTimeout(function () {
+      pT = setTimeout(function() {
         $("preview").src = "about:blank";
       }, 500);
       break;
     case 1: // mouseover
-      pT = setTimeout(function () {
+      pT = setTimeout(function() {
         $("preview").src = x;
       }, 100);
       break;

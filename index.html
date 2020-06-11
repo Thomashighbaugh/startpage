@@ -1,0 +1,203 @@
+<!doctype html>
+<!--
+ *
+ *  Startpage
+ *  By: Thomas Leon Highbaugh
+ *
+ *
+ * Inspired by https://github.com/TB-96/Evening-Startpage
+ *
+-->
+<html>
+<head>
+  <title>New Tab</title>
+  <meta charset="utf-8"/>
+
+  <link rel="shortcut icon" href="./assets/img/fav.png"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css" media="screen, projection"/>
+  <script src="assets/js/vendor/iconify.js" type="text/javascript"></script>
+  <script src="assets/js/vendor/jquery.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  <main class="container col-8" id="container" class="fade">
+
+    <div class="row justify-content-around ">
+    <section class="col-3 text-white justify-content-around">
+      <h1 id="header-time">00:00:00</h1>
+      <h2 id="header-date">Date</h2>
+    </section>
+    <section class="col-8">
+      <div id="apps-container">
+
+
+		<a class="apps-item" href="https://www.instagram.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-instagram"></span>
+          </div>
+          <div class="apps-text">
+            <span>Instagram</span>
+            <span>instagram.com</span>
+          </div>
+        </a>
+
+        <a  class="apps-item" href="https://www.youtube.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-youtube"></span>
+          </div>
+          <div class="apps-text">
+            <span>Youtube</span>
+            <span>youtube.com</span>
+          </div>
+        </a>
+
+        <a  class="apps-item" href="https://mail.google.com/mail/u/0/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-google"></span>
+          </div>
+          <div class="apps-text">
+            <span>Gmail</span>
+            <span>gmail.com</span>
+          </div>
+        </a>
+
+        <a  class="apps-item" href="https://github.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-github"></span>
+          </div>
+          <div class="apps-text">
+            <span>Github</span>
+            <span>github.com</span>
+          </div>
+        </a>
+        <a  class="apps-item" href="https://www.spotify.com">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-spotify"></span>
+          </div>
+          <div class="apps-text">
+            <span>Spotify</span>
+            <span>spotify.com</span>
+          </div>
+        </a>
+
+        <a  class="apps-item" href="https://stackoverflow.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-stackoverflow"></span>
+          </div>
+          <div class="apps-text">
+            <span>overflow</span>
+            <span>stackoverflow.com</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    </div>
+    <section id="links">
+<hr/>
+<!--        <div id="header-quote">Thinking</div>-->
+        <div class="w-100 h-2 mt-1">
+            <h2 class="display-2">BookMarks</h2>
+
+
+        </div>
+
+        <hr/>
+        <section class="bookmark-btn btn-group col-12 row">
+          <div class="row accordion">
+            <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </button>
+              <div id="collapseOne" class="collapse link-group" aria-labelledby="headingOne" data-parent="#accordion">
+
+              </div>
+            </div>
+            <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+              <div id="collapseTwo" class="collapse link-group" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+              <div id="collapseThree" class="collapse link-group" aria-labelledby="headingThree" data-parent="#accordion">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #4
+                  </button>
+              <div id="collapseFour" class="collapse link-group" aria-labelledby="headingFour" data-parent="#accordion">
+
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </section>
+      <br/>
+      <section class="bookmark-btn btn-group col-12 row">
+          <div class="row" id="accordion">
+
+            <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseFive">
+                    Collapsible Group Item #5
+                  </button>
+              <div id="collapseFive" class="collapse link-group" aria-labelledby="headingFive" data-parent="#accordion">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+            <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseSix">
+                    Collapsible Group Item #2
+                  </button>
+              <div id="collapseSix" class="collapse link-group" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseSeven">
+                    Collapsible Group Item #3
+                  </button>
+              <div id="collapseSeven" class="collapse link-group" aria-labelledby="headingSeven" data-parent="#accordion">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          <div class="col-3">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseEight">
+                    Collapsible Group Item #4
+                  </button>
+              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+  <aside class="col-4">
+      <img class="rounded img-fluid" src="assets/img/kali.jpg"/>
+
+  </aside>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script></body>
+<script src="./assets/js/script.js" type="text/javascript"></script>
+
+</html>

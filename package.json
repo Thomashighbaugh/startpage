@@ -1,11 +1,9 @@
 {
-  "name": "startpage",
+  "name": "Evening-Startpage-master",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Thomashighbaugh/startpage",
-  "author": "Thomas Leon Highbaugh <thighbaugh@zoho.com>",
   "license": "MIT",
   "dependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   }
 }

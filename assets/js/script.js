@@ -15,9 +15,8 @@ function startTime() {
   //Add a zero in front of numbers<10
   if (min < 10) {
     min = "0" + min;
-
   }
-  if (sec < 10){
+  if (sec < 10) {
     sec = "0" + sec;
   }
 
@@ -27,13 +26,15 @@ function startTime() {
     weekday: "long",
     year: "numeric",
     month: "long",
-    day: "numeric"
-  }
+    day: "numeric",
+  };
 
   var date = currentDate.toLocaleDateString("en-US", dateOptions);
   document.getElementById("header-date").innerHTML = date;
 
-  var time = setTimeout(function(){ startTime() }, 60);
+  var time = setTimeout(function () {
+    startTime();
+  }, 60);
 }
 
 // const quotes = [
@@ -45,19 +46,23 @@ function startTime() {
 //   Math.floor(Math.random() * quotes.length)
 // ];
 
-$(document).ready(function(){
-  $("#togglebookmarks").click(function(){
+$(document).ready(function () {
+  $("#togglebookmarks").click(function () {
     $("#hiddenbookmarks").toggle();
   });
 });
 
-document.addEventListener('click', function (event) {
+document.addEventListener(
+  "click",
+  function (event) {
+    // If the clicked element doesn't have the right selector, bail
+    if (!event.target.matches("#link")) return;
+    // Otherwise, run your code...
+    document.body.style.opacity = 0;
+  },
+  false
+);
 
-	// If the clicked element doesn't have the right selector, bail
-	if (!event.target.matches('#link')) return;
-	// Otherwise, run your code...
-	document.body.style.opacity = 0;
-
-}, false);
-
-document.getElementById("container").addEventListener("DOMContentLoaded", startTime());
+document
+  .getElementById("container")
+  .addEventListener("DOMContentLoaded", startTime());

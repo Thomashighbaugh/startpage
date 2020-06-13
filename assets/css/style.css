@@ -197,15 +197,15 @@ h4 {
 .apps-icon {
   padding: 0.75rem;
 }
-e
+
 svg {
-  fill: var(--color-primary);
+  fill: var(--color-primary) !important;
   display: block;
   width: 80px;
   height: 80px;
 }
 svg:hover {
-  fill: var(--color-secondary);
+  fill: var(--color-secondary) !important;
 }
 
 .apps-text {

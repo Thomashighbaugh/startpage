@@ -33,3 +33,20 @@ to do this**. I may write an extension in the future but for now, that all seems
 
 - Tiled SVG Background Image - using Hero Images
  
+- Smooth font (Arms find it [here](https://www.1001freefonts.com/arms-font.font))
+
+- Dark Interface - perfect for low light environments
+
+- Responsive - Designed to insure touchscreen and small screen support. Finally! A startpage useful on mobile too
+
+- Prettier formatted code - ease of maintaince and modification 
+
+ 
+
+
+## Gallery 
+
+![Startpage 00](./screenshots/startpage00.png)
+![Startpage 01](./screenshots/startpage01.png)
+![Startpage 02](./screenshots/startpage02.png)
+![Startpage 03](./screenshots/startpage03.png)

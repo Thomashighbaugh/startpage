@@ -205,7 +205,7 @@ svg {
   height: 80px;
 }
 svg:hover {
-  fill: var(--color-secondary) !important;
+  fill: var(--color-danger) !important;
 }
 
 .apps-text {

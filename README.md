@@ -25,13 +25,11 @@ and exclude the undesired ones. I never really shift between day and night mode,
 my screens, nor do I personally see much utility in shifting between screen layouts on the fly since **I have never needed
 to do this**. I may write an extension in the future but for now, that all seems extraneous.
 
-## Color Scheme & Design
+## Features
 
-This site uses my custom color pallete, which is also a Base16 theme now, called Vice. Vice is intended to give interfaces
-a `neon noir` flare that blends cyberpunk like visuals with colors drawn from the 80s, hence the title which comes from
-Miami Vice.
+- Dropdown Lists of Links, Arranged by Category - using Bootstrap 
 
-I used bootstrap on this startpage, which I have included in the source code for purposes of local hosting for those who
-require it for their offline viewing pleasure. It was primarily included for use of its seamless and well polished drop
-down buttons, which hide the links when the user is not viewing them, making for a more compact interface at startup that
-dynamically expands to incorporate the links as needed.
+- Font Awesome Icons that change color when hovered over - using inline SVG editing 
+
+- Tiled SVG Background Image - using Hero Images
+ 

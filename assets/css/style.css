@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
 @font-face {
   font-family: "Arms";
-  src: local("Arms"), local("Arms"), url("assets/fonts/ARMS.ttf");
+  src: local("Arms"), local("Arms"), url("/assets/fonts/ARMS.ttf");
 }
 :root {
   --color-theme: #00caff;

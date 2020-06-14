@@ -3,7 +3,10 @@
 > What is a Startpage?
 
 The source code contained within this repository is intended to be used as a locally hosted replacement for your browser's
-new tab page.
+new tab page, with your personalized modifications to its source code. However, I maintain the thing and have pretty good
+internet, so I just use the [live demo version](https://thomashighbaugh.github.io/startpage/) as my personal startpage.  
+
+![Startpage 00](./screenshots/startpage00.png)
 
 > Why Would You Use A Startpage Instead of the Default?
 
@@ -41,7 +44,9 @@ to do this**. I may write an extension in the future but for now, that all seems
 
 - Prettier formatted code - ease of maintaince and modification 
 
- 
+- Locally supplied copies of all external libaries - enables offline development and prevents unnecessary requests to outside servers
+
+
 
 
 ## Gallery 

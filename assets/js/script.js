@@ -36,16 +36,14 @@ function startTime() {
 }
 
 const quotes = [
-  'Om Jayanti Mangala Kali \n  Bhadrakali Kapalini \n   Durga Kshama Shiva Dhatri \n   Svaha Svadha Namostuthe.',
-  'Jaya Bhagavati Devi Namo Vara De\n Jaya Paapa Vinaashini Bahu Phala De \n Jaya Shumbha Nishumbha Kapaala Dhare\n Prannamaami Tu Devi Naraartihare ',
-  '“Listen, O lord of the meeting rivers,\n things standing shall fall,\n but the moving ever shall stay.”\n ― Basava',
-    '“The logic is simple: if you do the right things, the right things will happen to you even without your intent.” \n - Sadhguru',
-    '“When Shiva beats his Damru – Evil Shakes; while the Wise Awakes!” - True Krishna Priya',
-    
+  "Om Jayanti Mangala Kali \n  Bhadrakali Kapalini \n   Durga Kshama Shiva Dhatri \n   Svaha Svadha Namostuthe.",
+  "Jaya Bhagavati Devi Namo Vara De\n Jaya Paapa Vinaashini Bahu Phala De \n Jaya Shumbha Nishumbha Kapaala Dhare\n Prannamaami Tu Devi Naraartihare ",
+  "“Listen, O lord of the meeting rivers,\n things standing shall fall,\n but the moving ever shall stay.”\n ― Basava",
+  "“The logic is simple: if you do the right things, the right things will happen to you even without your intent.” \n - Sadhguru",
+  "“When Shiva beats his Damru – Evil Shakes; while the Wise Awakes!” - True Krishna Priya",
 ];
-document.getElementById("header-quote").innerText = quotes[
-  Math.floor(Math.random() * quotes.length)
-];
+document.getElementById("header-quote").innerText =
+  quotes[Math.floor(Math.random() * quotes.length)];
 
 $(document).ready(function () {
   $("#togglebookmarks").click(function () {

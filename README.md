@@ -4,7 +4,7 @@
 
 The source code contained within this repository is intended to be used as a locally hosted replacement for your browser's
 new tab page, with your personalized modifications to its source code. However, I maintain the thing and have pretty good
-internet, so I just use the [live demo version](https://thomashighbaugh.github.io/startpage/) as my personal startpage.  
+internet, so I just use the [live demo version](https://thomashighbaugh.github.io/startpage/) as my personal startpage.
 
 ![Startpage 00](./screenshots/startpage00.png)
 
@@ -30,26 +30,23 @@ to do this**. I may write an extension in the future but for now, that all seems
 
 ## Features
 
-- Dropdown Lists of Links, Arranged by Category - using Bootstrap 
+- Dropdown Lists of Links, Arranged by Category - using Bootstrap
 
-- Font Awesome Icons that change color when hovered over - using inline SVG editing 
+- Font Awesome Icons that change color when hovered over - using inline SVG editing
 
 - Tiled SVG Background Image - using Hero Images
- 
+
 - Smooth font (Arms find it [here](https://www.1001freefonts.com/arms-font.font))
 
 - Dark Interface - perfect for low light environments
 
 - Responsive - Designed to insure touchscreen and small screen support. Finally! A startpage useful on mobile too
 
-- Prettier formatted code - ease of maintaince and modification 
+- Prettier formatted code - ease of maintaince and modification
 
 - Locally supplied copies of all external libaries - enables offline development and prevents unnecessary requests to outside servers
 
-
-
-
-## Gallery 
+## Gallery
 
 ![Startpage 00](./screenshots/startpage00.png)
 ![Startpage 01](./screenshots/startpage01.png)

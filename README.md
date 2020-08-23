@@ -1,54 +1,30 @@
-## Introduction
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-> What is a Startpage?
+## Getting Started
 
-The source code contained within this repository is intended to be used as a locally hosted replacement for your browser's
-new tab page, with your personalized modifications to its source code. However, I maintain the thing and have pretty good
-internet, so I just use the [live demo version](https://thomashighbaugh.github.io/startpage/) as my personal startpage.
+First, run the development server:
 
-![Startpage 00](./screenshots/startpage00.png)
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-> Why Would You Use A Startpage Instead of the Default?
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Because I find the clickbait on Firefox's New Tab Page to be unbearable and distracting when I am working and see something
-else to ruin my faith in humanity. Truth be told, I often am already halfway through typing out the site I want to go to
-by the time the tab is fully open, but the links are conventional and I like bootstrap's sleekness, so they are included
-(and kept out of the way)
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-While you can edit what appears in `about:config`, updates (which because I use a rolling Linux distro are somewhat often)
-'magically' reset these settings (in my experience at least) which is not the case with setting the New Tab page to being
-my own site.
+## Learn More
 
-> Why Not Use A Browser Extensions With All of Its Cool Options
+To learn more about Next.js, take a look at the following resources:
 
-As I have often heard relatives quip over the years, `if you want it done right, do it yourself`. A lot of high quality
-extensions do exist for Firefox and other browsers that would perform essentially this function and I have used some,
-experimented with their source code even, but ultimately I would rather take it upon myself to code in the desired functions
-and exclude the undesired ones. I never really shift between day and night mode, for me its always night mode on all
-my screens, nor do I personally see much utility in shifting between screen layouts on the fly since **I have never needed
-to do this**. I may write an extension in the future but for now, that all seems extraneous.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Features
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- Dropdown Lists of Links, Arranged by Category - using Bootstrap
+## Deploy on Vercel
 
-- Font Awesome Icons that change color when hovered over - using inline SVG editing
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Tiled SVG Background Image - using Hero Images
-
-- Smooth font (Arms find it [here](https://www.1001freefonts.com/arms-font.font))
-
-- Dark Interface - perfect for low light environments
-
-- Responsive - Designed to insure touchscreen and small screen support. Finally! A startpage useful on mobile too
-
-- Prettier formatted code - ease of maintaince and modification
-
-- Locally supplied copies of all external libaries - enables offline development and prevents unnecessary requests to outside servers
-
-## Gallery
-
-![Startpage 00](./screenshots/startpage00.png)
-![Startpage 01](./screenshots/startpage01.png)
-![Startpage 02](./screenshots/startpage02.png)
-![Startpage 03](./screenshots/startpage03.png)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

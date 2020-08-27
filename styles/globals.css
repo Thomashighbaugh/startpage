@@ -1,6 +1,5 @@
 html,
 body {
-  color: #efeeff;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -20,4 +19,8 @@ a:hover, a:active {
 
 * {
   box-sizing: border-box;
+}
+.btn {
+  color: #efeeff;
+  font-size: 2rem;
 }

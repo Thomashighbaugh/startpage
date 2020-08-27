@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Clock from "../components/Clock/Clock";
@@ -5,8 +6,7 @@ import styled from 'styled-components';
 import Footer from "../components/Footer/Footer";
 import {FaGithubAlt} from "react-icons/fa";
 import {HiOutlineMailOpen} from "react-icons/hi";
-import {RiMenu5Line} from "react-icons/ri";
-
+import ModalButton from "../components/Modal/ModalButton";
 const GridStyles = styled.div`
   display: flex;
   align-items: center;
@@ -62,20 +62,20 @@ export default function Home() {
 
           <GridStyles className="btn-group">
 
-              <Cards className="btn"><a href="https://nextjs.org/docs" className={styles.card}>
+              <Cards className="btn">
 
-                  <RiMenu5Line size={75}/>
-              </a></Cards>
+<ModalButton />
+              </Cards>
 
-              <Cards className="btn"><a href="https://mail.zoho.com" className={styles.card}>
-                  <HiOutlineMailOpen size={75}/> &rarr;
+              <Cards className="btn"><a href="https://mail.zoho.com" >
+                  <HiOutlineMailOpen size={60}/> &rarr;
               </a></Cards>
 
               <Cards className="btn"><a
                   href="https://github.com/Thomashighbaugh"
                   className={styles.card}
               >
-                  <FaGithubAlt size={75}/> &rarr;
+                  <FaGithubAlt size={60}/> &rarr;
               </a></Cards>
               <Cards className="btn">
                   <a

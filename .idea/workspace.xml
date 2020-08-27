@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ba8df8-6ef9-4c1c-b120-0a1ec8320f57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Modal/ModalButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Modal/ModalMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Clock/Clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Clock/Clock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
@@ -33,6 +38,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,17 +61,44 @@
       <workItem from="1598169590239" duration="16000" />
       <workItem from="1598169611854" duration="6309000" />
       <workItem from="1598353718710" duration="2166000" />
-      <workItem from="1598561369208" duration="489000" />
+      <workItem from="1598561369208" duration="3945000" />
     </task>
+    <task id="LOCAL-00001" summary="menu items fill in">
+      <created>1598561927057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598561927057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="menu items fill in" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu items fill in" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="4680" y="307" width="872" height="872" key="CommitChangelistDialog2" timestamp="1598561926974">
+      <screen x="3840" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4680" y="307" width="872" height="872" key="CommitChangelistDialog2/3840.0.2560.1440/0.0.1920.1080/1920.0.1920.1080@3840.0.2560.1440" timestamp="1598561926974" />
     <state x="1068" y="530" width="426" height="456" key="FileChooserDialogImpl" timestamp="1598169608640">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1068" y="530" width="426" height="456" key="FileChooserDialogImpl/4480.0.1920.1080/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1598169608640" />
+    <state x="4621" y="437" width="997" height="702" key="SettingsEditor" timestamp="1598564394499">
+      <screen x="3840" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4621" y="437" width="997" height="702" key="SettingsEditor/3840.0.2560.1440/0.0.1920.1080/1920.0.1920.1080@3840.0.2560.1440" timestamp="1598564394499" />
+    <state x="4783" y="363" width="672" height="678" key="search.everywhere.popup" timestamp="1598564368442">
+      <screen x="3840" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4783" y="363" width="672" height="678" key="search.everywhere.popup/3840.0.2560.1440/0.0.1920.1080/1920.0.1920.1080@3840.0.2560.1440" timestamp="1598564368442" />
   </component>
 </project>

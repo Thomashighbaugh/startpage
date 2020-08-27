@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import Footer from "../components/Footer/Footer";
 import {FaGithubAlt} from "react-icons/fa";
 import {HiOutlineMailOpen} from "react-icons/hi";
+import {RiMenu5Line} from "react-icons/ri";
+
 const GridStyles = styled.div`
   display: flex;
   align-items: center;
@@ -16,14 +18,13 @@ const GridStyles = styled.div`
 `
 
 const Cards = styled.div`
- margin: 0.5rem;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  border: 3px solid #eaeaea;
+  border-radius: 15px;
+  transition: color 1.5s ease, border-color 1.5s ease;
   background: #292d35;
 `
 
@@ -59,32 +60,32 @@ export default function Home() {
       <main className={styles.main}>
         <Clock />
 
-        <GridStyles className ="row">
+          <GridStyles className="btn-group">
 
-          <Cards className="col-2 btn"><a href="https://nextjs.org/docs" className={styles.card}>
+              <Cards className="btn"><a href="https://nextjs.org/docs" className={styles.card}>
 
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a></Cards>
+                  <RiMenu5Line size={75}/>
+              </a></Cards>
 
-          <Cards className="col-2 btn"><a href="https://nextjs.org/learn" className={styles.card}>
-              <HiOutlineMailOpen size={75}/>
-          </a></Cards>
+              <Cards className="btn"><a href="https://mail.zoho.com" className={styles.card}>
+                  <HiOutlineMailOpen size={75}/> &rarr;
+              </a></Cards>
 
-          <Cards className="col-2 btn"><a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-<FaGithubAlt size={75} /> &rarr;
-          </a></Cards>
-          <Cards className="col-2 btn">
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+              <Cards className="btn"><a
+                  href="https://github.com/Thomashighbaugh"
+                  className={styles.card}
+              >
+                  <FaGithubAlt size={75}/> &rarr;
+              </a></Cards>
+              <Cards className="btn">
+                  <a
+                      href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                      className={styles.card}
+                  >
 
-          </a>
-          </Cards>
-        </GridStyles>
+                  </a>
+              </Cards>
+          </GridStyles>
       </main>
 
 <Footer />

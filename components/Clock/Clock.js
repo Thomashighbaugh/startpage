@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import { format } from "date-fns";
+import React, {Component} from "react";
+import {format} from "date-fns";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const ClockDiv = styled.div`
   border-radius: 25px;
+  border: 0.25rem solid #efeeff;
   background: #292d35;
   padding: 3.5rem;
   color: #efeeff;
@@ -22,8 +23,8 @@ const Time = styled.h1`
 `;
 
 const LongDate = styled.h3`
-  font-size: 1.5rem;
-  margin-top: 0;
+  font-size: 2rem;
+    margin-top: 0;
   text-shadow: #939597 0.125rem 0.125rem;
 `;
 class Clock extends Component {

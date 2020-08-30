@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Clock from "../components/Clock/Clock";
 import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
@@ -80,10 +79,7 @@ export default function Home() {
           </Cards>
 
           <Cards className="btn">
-            <a
-              href="https://github.com/Thomashighbaugh"
-              className={styles.card}
-            >
+            <a href="https://github.com/Thomashighbaugh">
               <FaGithubAlt size={60} /> &rarr;
             </a>
           </Cards>

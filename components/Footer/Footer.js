@@ -15,7 +15,7 @@ const FootWrap = styled.footer`
 
 const FootImg = styled.img`
   min-width: 5rem;
-  min-height: 5rem;
+  max-height: 5rem;
   align-content: center;
   align-self: center;
   justify-content: center;

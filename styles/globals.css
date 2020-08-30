@@ -22,5 +22,19 @@ a:hover, a:active {
 }
 .btn {
   color: #efeeff;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  border: #efeeff solid 0.125rem;
+  border-radius: 18px;
+}
+
+.btn:hover{
+  border-color: #00caff;
+  color: #00caff;
+}
+
+footer img{
+  min-width: 1rem;
+  width:3rem;
+  min-height: 3rem;
+  height: 3rem;
 }

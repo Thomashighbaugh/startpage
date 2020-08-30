@@ -5,6 +5,9 @@ import styled from "styled-components";
 
 const BTN = styled.div`
   color: #efeeff;
+  &:hover {
+    color: #00caff;
+  }
 `;
 
 export default function ModalButton(props) {

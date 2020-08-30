@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-import {format} from "date-fns";
+import React, { Component } from "react";
+import { format } from "date-fns";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
@@ -13,19 +13,30 @@ const ClockDiv = styled.div`
   justify-content: center;
   align-content: center;
   margin: 0;
-  line-height: 1.15;
+  &:hover {
+    border-color: #00caff;
+  }
 `;
 const Time = styled.h1`
   font-size: 4.25rem;
   margin-bottom: 0;
   margin-top: 0;
+  line-height: 1.25;
   text-shadow: #939597 0.25rem 0.25rem;
+  &:hover {
+    color: #00caff;
+    text-shadow: #efeeff 0.25rem 0.25rem;
+  }
 `;
 
 const LongDate = styled.h3`
   font-size: 2rem;
-    margin-top: 0;
+  margin-top: 1rem;
   text-shadow: #939597 0.125rem 0.125rem;
+  &:hover {
+    color: #00caff;
+    text-shadow: #efeeff 0.125rem 0.125rem;
+  }
 `;
 class Clock extends Component {
   constructor(props) {

@@ -6,18 +6,28 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import {
+  FaAws,
   FaBitbucket,
   FaCodepen,
+  FaCreativeCommonsSamplingPlus,
+  FaDigitalOcean,
   FaDropbox,
   FaGithub,
   FaGitlab,
   FaInstagram,
+  FaLinux,
   FaReddit,
   FaRedditSquare,
   FaYoutube,
 } from "react-icons/fa/index";
-import { GrCodeSandbox } from "react-icons/gr/index";
-import { SiCodesandbox } from "react-icons/si/index";
+import {
+  SiArchlinux,
+  SiCodesandbox,
+  SiFirebase,
+  SiGooglecloud,
+  SiGenius,
+  SiGentoo,
+} from "react-icons/si/index";
 const ModalBackground = styled.div`
   background: #292d35;
   color: #efeeff;
@@ -38,9 +48,9 @@ export default function ModalMenu(props) {
   return (
     <Modal size="lg" {...props} aria-labelledby="contained-modal-title-vcenter">
       <ModalBackground>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter">
-            Using Grid in Modal
+            Quick Links
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="show-grid">
@@ -108,10 +118,74 @@ export default function ModalMenu(props) {
                 </Cards>
               </Col>
             </Row>
+            <br />
+            <Row>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://aws.com">
+                    <FaAws size={60} />
+                  </a>
+                </Cards>
+              </Col>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://digitalocean.com">
+                    <FaDigitalOcean size={60} />
+                  </a>
+                </Cards>
+              </Col>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://cloud.google.com/">
+                    <SiGooglecloud size={60} />
+                  </a>
+                </Cards>
+              </Col>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://firebase.google.com/">
+                    <SiFirebase size={60} />
+                  </a>
+                </Cards>
+              </Col>
+            </Row>
+            <br />
+            <Row>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://wiki.archlinux.org/">
+                    <SiArchlinux size={60} />
+                  </a>
+                </Cards>
+              </Col>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://distrowatch.com">
+                    <FaLinux size={60} />
+                  </a>
+                </Cards>
+              </Col>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://www.pling.com/">
+                    <FaCreativeCommonsSamplingPlus size={60} />
+                  </a>
+                </Cards>
+              </Col>
+              <Col>
+                <Cards className="btn">
+                  <a href="https://wiki.gentoo.org/wiki/Handbook:Main_Page">
+                    <SiGentoo size={60} />
+                  </a>
+                </Cards>
+              </Col>
+            </Row>
           </Container>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button variant="dark" className="btn" onClick={props.onHide}>
+            Close
+          </Button>
         </Modal.Footer>
       </ModalBackground>
     </Modal>

@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ba8df8-6ef9-4c1c-b120-0a1ec8320f57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Modal/ModalButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Modal/ModalMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Clock/Clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Clock/Clock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Modal/ModalButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Modal/ModalMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,6 +60,9 @@
       <workItem from="1598169611854" duration="6309000" />
       <workItem from="1598353718710" duration="2166000" />
       <workItem from="1598561369208" duration="3945000" />
+      <workItem from="1598567990496" duration="5500000" />
+      <workItem from="1598767963520" duration="105000" />
+      <workItem from="1598768095240" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="menu items fill in">
       <created>1598561927057</created>

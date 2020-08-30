@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="96ba8df8-6ef9-4c1c-b120-0a1ec8320f57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Clock/Clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Clock/Clock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Modal/ModalButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Modal/ModalMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
       <workItem from="1598561369208" duration="3945000" />
       <workItem from="1598567990496" duration="5500000" />
       <workItem from="1598767963520" duration="105000" />
-      <workItem from="1598768095240" duration="862000" />
+      <workItem from="1598768095240" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="menu items fill in">
       <created>1598561927057</created>

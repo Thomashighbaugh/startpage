@@ -31,10 +31,23 @@ a:hover, a:active {
   border-color: #00caff;
   color: #00caff;
 }
+footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
 
 footer img{
   min-width: 1rem;
   width:3rem;
   min-height: 3rem;
   height: 3rem;
+align-content: center;
+align-self: center;
+justify-content: center;
+justify-self: center;
 }

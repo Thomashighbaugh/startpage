@@ -29,14 +29,19 @@ const Time = styled.h1`
   }
 `;
 
-const LongDate = styled.h3`
+const LongDate = styled.h1`
   font-size: 2rem;
+  font-weight: 900;
   margin-top: 1rem;
   text-shadow: #939597 0.125rem 0.125rem;
   &:hover {
     color: #00caff;
     text-shadow: #efeeff 0.125rem 0.125rem;
   }
+`;
+
+const HR = styled.hr`
+  border-top: 0.25rem #efeeff solid;
 `;
 class Clock extends Component {
   constructor(props) {
@@ -73,7 +78,8 @@ class Clock extends Component {
   render() {
     return (
       <ClockDiv>
-        <Time className="card-title ">{this.state.time}</Time>{" "}
+        <Time className="card-title ">{this.state.time}</Time>
+        <HR />
         <LongDate className="small">{this.state.date}</LongDate>
       </ClockDiv>
     );

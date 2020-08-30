@@ -2,20 +2,20 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Clock from "../components/Clock/Clock";
-import styled from 'styled-components';
+import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
-import {FaGithubAlt} from "react-icons/fa";
-import {HiOutlineMailOpen} from "react-icons/hi";
+import { FaGithubAlt } from "react-icons/fa";
+import { HiOutlineMailOpen } from "react-icons/hi";
 import ModalButton from "../components/Modal/ModalButton";
+import Search from "../components/Search/Search";
 const GridStyles = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   max-width: 100vw;
   margin-top: 3rem;
-`
+`;
 
 const Cards = styled.div`
   padding: 1rem;
@@ -26,11 +26,18 @@ const Cards = styled.div`
   border-radius: 15px;
   transition: color 1.5s ease, border-color 1.5s ease;
   background: #292d35;
-`
-
+`;
+const Main = styled.main`
+  padding: 7% 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 export default function Home() {
   return (
-    <div className="container-fluid">
+    <div>
       <Head>
         <title>Home // Startpage </title>
         <link rel="icon" href="/logo.svg" />
@@ -57,38 +64,32 @@ export default function Home() {
         />
       </Head>
 
-      <main className={styles.main}>
+      <Main>
         <Clock />
+        <Search />
+        <GridStyles className="btn-group">
+          <Cards className="btn">
+            <ModalButton />
+          </Cards>
 
-          <GridStyles className="btn-group">
+          <Cards className="btn">
+            <a href="https://mail.zoho.com">
+              <HiOutlineMailOpen size={60} /> &rarr;
+            </a>
+          </Cards>
 
-              <Cards className="btn">
+          <Cards className="btn">
+            <a
+              href="https://github.com/Thomashighbaugh"
+              className={styles.card}
+            >
+              <FaGithubAlt size={60} /> &rarr;
+            </a>
+          </Cards>
+        </GridStyles>
+      </Main>
 
-<ModalButton />
-              </Cards>
-
-              <Cards className="btn"><a href="https://mail.zoho.com" >
-                  <HiOutlineMailOpen size={60}/> &rarr;
-              </a></Cards>
-
-              <Cards className="btn"><a
-                  href="https://github.com/Thomashighbaugh"
-                  className={styles.card}
-              >
-                  <FaGithubAlt size={60}/> &rarr;
-              </a></Cards>
-              <Cards className="btn">
-                  <a
-                      href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                      className={styles.card}
-                  >
-
-                  </a>
-              </Cards>
-          </GridStyles>
-      </main>
-
-<Footer />
+      <Footer />
     </div>
   );
 }

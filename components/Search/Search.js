@@ -4,7 +4,27 @@ import styled from "styled-components";
 const StyledSearch = styled.input`
   color: #efeeff;
   background-color: #292d35;
+  &:hover {
+    border-color: #00caff;
+    color: #00caff;
+  }
 `;
+
+const SearchWrap = styled.div`
+  border-radius: 25px;
+  border: 0.25rem solid #efeeff;
+  background: #292d35;
+  padding: 2rem;
+  color: #efeeff;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+  &:hover {
+    border-color: #00caff;
+  }
+`;
+
 class Search extends Component {
   state = {
     formInput: "",
@@ -58,23 +78,24 @@ class Search extends Component {
       });
     }
   };
-
+  componentDidMount() {
+    this.searchInput.focus();
+  }
   render() {
     return (
-      <div className="submit_wrapper">
+      <SearchWrap className="submit_wrapper">
         <form onSubmit={this.onSubmitHandler}>
           <StyledSearch
+            ref={(inputEl) => (this.searchInput = inputEl)}
             className="searchBar"
-            placeholder="duckduckgo"
+            placeholder="URL or Search Query"
             onChange={(newState) => this.updateInput(newState)}
             autoFocus
           />
 
-          <button className="btn" type="submit">
-            search
-          </button>
+          <button hidden className="btn" type="submit" />
         </form>
-      </div>
+      </SearchWrap>
     );
   }
 }

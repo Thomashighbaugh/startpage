@@ -67,6 +67,7 @@ export default function Home() {
       <Main>
         <Clock />
         <Search />
+
         <GridStyles className="btn-group">
           <Cards className="btn">
             <ModalButton />

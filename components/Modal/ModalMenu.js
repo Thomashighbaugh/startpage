@@ -43,15 +43,31 @@ const Cards = styled.div`
   transition: color 1.5s ease, border-color 1.5s ease;
   background: #292d35;
 `;
+const Title = styled.h3`
+  font-weight: 900;
+  font-size: 3rem;
+  text-shadow: #939597 0.2rem 0.17rem;
+`;
+const StyledButton = styled.button`
+  background: #292d35;
+  font-weight: 900;
+  font-size: 3rem;
+  padding-top: 0;
+  padding-bottom: o;
+  masrgin: 1rem;
+`;
 
 export default function ModalMenu(props) {
   return (
     <Modal size="lg" {...props} aria-labelledby="contained-modal-title-vcenter">
       <ModalBackground>
         <Modal.Header>
-          <Modal.Title id="contained-modal-title-vcenter">
+          <Title className="modal-title" id="contained-modal-title-vcenter">
             Quick Links
-          </Modal.Title>
+          </Title>
+          <StyledButton className="btn float-right" onClick={props.onHide}>
+            x
+          </StyledButton>
         </Modal.Header>
         <Modal.Body className="show-grid">
           <Container>
@@ -182,11 +198,6 @@ export default function ModalMenu(props) {
             </Row>
           </Container>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="dark" className="btn" onClick={props.onHide}>
-            Close
-          </Button>
-        </Modal.Footer>
       </ModalBackground>
     </Modal>
   );

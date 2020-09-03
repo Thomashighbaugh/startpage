@@ -12,8 +12,8 @@ const GridStyles = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 100vw;
-  margin-top: 3rem;
+  max-width: 100%;
+  margin-top: 2rem;
 `;
 
 const Cards = styled.div`
@@ -27,7 +27,7 @@ const Cards = styled.div`
   background: #292d35;
 `;
 const Main = styled.main`
-  padding: 7% 0;
+  padding: 5em 0;
   flex: 1;
   display: flex;
   flex-direction: column;

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96ba8df8-6ef9-4c1c-b120-0a1ec8320f57" name="Default Changelist" comment="menu items fill in">
+    <list default="true" id="96ba8df8-6ef9-4c1c-b120-0a1ec8320f57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/brevifolia-next-tinacms-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,7 +71,9 @@
       <workItem from="1598567990496" duration="5500000" />
       <workItem from="1598767963520" duration="105000" />
       <workItem from="1598768095240" duration="10106000" />
-      <workItem from="1598812955645" duration="618000" />
+      <workItem from="1598812955645" duration="1908000" />
+      <workItem from="1598879522102" duration="11000" />
+      <workItem from="1599098968767" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="menu items fill in">
       <created>1598561927057</created>
@@ -79,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598561927057</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="menu items fill in">
+      <created>1598813583655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598813583655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,13 +104,18 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4680" y="337" width="872" height="872" key="CommitChangelistDialog2" timestamp="1598788368148">
+    <state x="4858" y="559" width="526" height="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598813605170">
       <screen x="3840" y="0" width="2560" height="1440" />
     </state>
-    <state x="4680" y="337" width="872" height="872" key="CommitChangelistDialog2/3840.0.2560.1440/0.0.1920.1080/1920.0.1920.1080@3840.0.2560.1440" timestamp="1598788368148" />
-    <state x="1068" y="530" width="426" height="456" key="FileChooserDialogImpl" timestamp="1598169608640">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="4858" y="559" width="526" height="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.0.2560.1440/0.0.1920.1080/1920.0.1920.1080@3840.0.2560.1440" timestamp="1598813605170" />
+    <state x="4680" y="367" width="872" height="872" key="CommitChangelistDialog2" timestamp="1598813583561">
+      <screen x="3840" y="0" width="2560" height="1440" />
     </state>
+    <state x="4680" y="367" width="872" height="872" key="CommitChangelistDialog2/3840.0.2560.1440/0.0.1920.1080/1920.0.1920.1080@3840.0.2560.1440" timestamp="1598813583561" />
+    <state x="4908" y="559" width="426" height="456" key="FileChooserDialogImpl" timestamp="1598879531040">
+      <screen x="3840" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4908" y="559" key="FileChooserDialogImpl/3840.0.2560.1440/0.0.1920.1080/1920.0.1920.1080@3840.0.2560.1440" timestamp="1598879531040" />
     <state x="1068" y="530" width="426" height="456" key="FileChooserDialogImpl/4480.0.1920.1080/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1598169608640" />
     <state x="4621" y="437" width="997" height="702" key="SettingsEditor" timestamp="1598564394499">
       <screen x="3840" y="0" width="2560" height="1440" />

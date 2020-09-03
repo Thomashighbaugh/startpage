@@ -1,6 +1,6 @@
-# Startpage
+# README
 
-![Screenshot](screemshot.png)
+![Screenshot](./screemshot.png)
 
 ### TL;DR
 

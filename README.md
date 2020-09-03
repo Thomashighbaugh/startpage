@@ -1,6 +1,6 @@
 # README
 
-![Screenshot](public/screemshot.png)
+![Screenshot](screenshots/screemshot.png)
 
 ### TL;DR
 
